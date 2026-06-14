@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta name="theme-color" content="#0a0e1a"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="Siam Arena"/>
+<title>Siam Arena</title>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest/dist/hls.min.js">
+// Fullscreen
+function toggleFS(){
+  var wrap = document.querySelector('.player-wrap');
+  if(!document.fullscreenElement && !document.webkitFullscreenElement){
+    if(wrap.requestFullscreen) wrap.requestFullscreen();
+    else if(wrap.webkitRequestFullscreen) wrap.webkitRequestFullscreen();
+    else if(vid.webkitEnterFullscreen) vid.webkitEnterFullscreen();
+  } else {
+    if(document.exitFullscreen) document.exitFullscreen();
+    else if(document.webkitExitFullscreen) document.webkitExitFullscreen();
+  }
+}
+
+// Auto-pause when tab hidden or window blur
+document.addEventListener('visibilitychange', function(){
+  if(document.hidden && !vid.paused) vid.pause();
+});
+window.addEventListener('blur', function(){
+  if(!vid.paused) vid.pause();
+});
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#0a0e1a;--bg2:#111827;--bg3:#1a2235;--card:#141d2e;
+  --gold:#f5c518;--live:#ff3d3d;--green:#00c853;
+  --text:#f0f4ff;--muted:#8892a4;--border:#1e2d42;
+}
+html,body{height:100%;overflow:hidden;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;display:flex;flex-direction:column;height:100vh}
+
+/* BG */
+.bg-img{position:fixed;inset:0;background-image:url('bg.jpeg');background-size:cover;background-position:center;z-index:0}
+.bg-dim{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:1}
+
+/* HEADER */
+header{position:relative;z-index:10;background:rgba(10,14,26,.92);border-bottom:1px solid var(--border);padding:.7rem 1rem;display:flex;align-items:center;justify-content:space-between;flex-shrink:0}
+.logo{display:flex;align-items:center;gap:.5rem}
+.logo-text{font-size:1.2rem;font-weight:800;color:var(--gold);letter-spacing:1px}
+.logo-text span{color:var(--text)}
+.logo-badge{background:var(--live);color:#fff;font-size:.6rem;font-weight:700;padding:.15rem .4rem;border-radius:4px;letter-spacing:.5px}
+.header-right{display:flex;align-items:center;gap:.6rem}
+.watch-btn{background:var(--live);color:#fff;border:none;padding:.4rem .9rem;border-radius:20px;font-size:.78rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:.3rem}
+.live-dot{width:7px;height:7px;border-radius:50%;background:#fff;animation:pulse 1.2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.2}}
+
+/* BOTTOM NAV */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;z-index:100;background:rgba(10,14,26,.98);border-top:1px solid var(--border);display:flex}
+.nav-item{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:.6rem .3rem;cursor:pointer;transition:.15s;color:var(--muted);font-size:.65rem;gap:.25rem;border:none;background:none}
+.nav-item.active{color:var(--gold)}
+.nav-icon{font-size:1.3rem}
+
+/* PAGES */
+.pages{flex:1;position:relative;z-index:5;overflow:hidden;padding-bottom:56px}
+.page{position:absolute;top:0;left:0;right:0;bottom:0;overflow-y:auto;padding:1rem 1rem 5rem 1rem;display:none;-webkit-overflow-scrolling:touch}
+.page.active{display:block}
+
+/* SCROLLBAR */
+.page::-webkit-scrollbar{width:3px}
+.page::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+
+/* SECTION TITLE */
+.sec-title{font-size:.75rem;font-weight:700;letter-spacing:1px;color:var(--muted);text-transform:uppercase;display:flex;align-items:center;gap:.5rem;margin-bottom:.8rem}
+.sec-title::before{content:'';width:3px;height:14px;background:var(--gold);border-radius:2px;display:inline-block}
+
+/* HOME PAGE */
+.hero-card{background:linear-gradient(135deg,rgba(245,197,24,.15),rgba(245,197,24,.05));border:1px solid rgba(245,197,24,.2);border-radius:14px;padding:1.2rem;margin-bottom:1rem;text-align:center}
+.hero-card h2{font-size:1.1rem;font-weight:800;color:var(--gold);margin-bottom:.3rem}
+.hero-card p{font-size:.78rem;color:var(--muted)}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;margin-bottom:1rem}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.6rem;text-align:center}
+.stat-n{font-size:1.3rem;font-weight:800;color:var(--gold)}
+.stat-l{font-size:.6rem;color:var(--muted);text-transform:uppercase;margin-top:.1rem}
+
+/* MATCH CARDS */
+.match-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:.9rem;margin-bottom:.7rem;transition:.15s}
+.match-card:active{transform:scale(.98)}
+.match-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:.7rem}
+.match-group{font-size:.68rem;color:var(--muted)}
+.status-live{background:rgba(255,61,61,.15);color:var(--live);font-size:.68rem;font-weight:700;padding:.2rem .5rem;border-radius:8px}
+.status-ft{background:rgba(136,146,164,.1);color:var(--muted);font-size:.68rem;padding:.2rem .5rem;border-radius:8px}
+.status-soon{background:rgba(0,200,83,.1);color:var(--green);font-size:.68rem;padding:.2rem .5rem;border-radius:8px}
+.match-body{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:.5rem}
+.team{display:flex;flex-direction:column;align-items:center;gap:.3rem}
+.team-flag{font-size:1.8rem}
+.team-name{font-size:.75rem;font-weight:600;text-align:center}
+.score-box{text-align:center}
+.score-num{font-size:1.5rem;font-weight:800;color:var(--text)}
+.score-vs{font-size:.85rem;color:var(--muted)}
+.match-venue{font-size:.65rem;color:var(--muted);text-align:center;margin-top:.5rem}
+.match-time{font-size:.72rem;color:var(--gold);text-align:center;margin-top:.3rem}
+
+/* DATE DIVIDER */
+.date-div{font-size:.72rem;color:var(--gold);font-weight:700;margin:.8rem 0 .4rem;display:flex;align-items:center;gap:.5rem}
+.date-div::after{content:'';flex:1;height:1px;background:var(--border)}
+
+/* STANDINGS */
+.group-tabs{display:flex;gap:.4rem;overflow-x:auto;padding-bottom:.5rem;margin-bottom:.8rem;scrollbar-width:none}
+.group-tabs::-webkit-scrollbar{display:none}
+.g-tab{flex-shrink:0;padding:.35rem .8rem;border-radius:8px;border:1px solid var(--border);background:transparent;color:var(--muted);font-size:.75rem;cursor:pointer;transition:.15s;white-space:nowrap}
+.g-tab.active{background:var(--gold);color:#000;font-weight:700;border-color:var(--gold)}
+.stand-table{width:100%;border-collapse:collapse;font-size:.78rem}
+.stand-table th{color:var(--muted);font-size:.65rem;padding:.4rem .5rem;text-align:left;border-bottom:1px solid var(--border);font-weight:500}
+.stand-table td{padding:.55rem .5rem;border-bottom:1px solid rgba(30,45,66,.4)}
+.stand-table tr:hover td{background:rgba(255,255,255,.02)}
+.pos{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;font-size:.7rem;font-weight:700}
+.pos-q{background:rgba(0,200,83,.15);color:var(--green)}
+.pos-n{color:var(--muted)}
+.team-cell{display:flex;align-items:center;gap:.4rem}
+
+/* LIVE PAGE */
+.player-wrap{background:#000;border-radius:12px;overflow:hidden;aspect-ratio:16/9;position:relative;margin-bottom:.7rem}
+.player-wrap video{width:100%;height:100%;display:block;object-fit:contain}
+.player-wrap:-webkit-full-screen{width:100vw;height:100vh;border-radius:0;aspect-ratio:unset}
+.player-wrap:fullscreen{width:100vw;height:100vh;border-radius:0;aspect-ratio:unset}
+.player-wrap:-webkit-full-screen video{width:100%;height:100%;object-fit:contain}
+.player-wrap:fullscreen video{width:100%;height:100%;object-fit:contain}
+.ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#4a5568;gap:.4rem;font-size:.82rem}
+.ph-icon{font-size:2rem}
+.now-bar{display:none;align-items:center;gap:.4rem;margin-bottom:.6rem;font-size:.78rem}
+.now-bar.show{display:flex}
+.np-dot{width:8px;height:8px;border-radius:50%;background:var(--live);animation:pulse 1.2s infinite}
+.np-lbl{color:var(--live);font-weight:700}
+.np-name{color:var(--text)}
+.now-actions{margin-left:auto;display:flex;gap:.4rem}
+.action-btn{background:rgba(245,197,24,.12);border:1px solid rgba(245,197,24,.25);color:var(--gold);padding:.18rem .55rem;border-radius:6px;font-size:.68rem;font-weight:700;cursor:pointer}
+
+.m3u-row{display:flex;gap:.4rem;margin-bottom:.9rem}
+.m3u-row input{flex:1;padding:.5rem .7rem;background:var(--bg3);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:.8rem;outline:none}
+.m3u-row input:focus{border-color:var(--gold)}
+.play-btn{background:var(--gold);color:#000;border:none;padding:.5rem 1rem;border-radius:8px;font-weight:700;cursor:pointer;font-size:.82rem}
+
+.ch-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+.ch-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.65rem .75rem;display:flex;align-items:center;gap:.5rem;cursor:pointer;transition:.15s}
+.ch-card:active{transform:scale(.97)}
+.ch-card:hover,.ch-card.active{border-color:var(--gold)}
+.ch-icon{font-size:1.2rem;flex-shrink:0}
+.ch-info{flex:1;min-width:0}
+.ch-name{font-size:.78rem;font-weight:700;color:var(--text)}
+.ch-sub{font-size:.62rem;margin-top:.1rem}
+.badge-live{color:var(--live)}
+.badge-app{color:var(--muted)}
+.ch-play{background:var(--gold);color:#000;border:none;padding:.25rem .55rem;border-radius:5px;font-size:.65rem;font-weight:700;cursor:pointer;flex-shrink:0}
+.ch-arr{color:var(--muted);font-size:.9rem}
+
+.ext-grid{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-top:.4rem}
+.ext-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.65rem .75rem;display:flex;align-items:center;gap:.5rem;cursor:pointer;transition:.15s}
+.ext-card:active{transform:scale(.97)}
+.ext-card:hover{border-color:rgba(245,197,24,.4)}
+
+/* LOADING */
+.loading{text-align:center;padding:2rem;color:var(--muted)}
+.spinner{display:inline-block;width:28px;height:28px;border:2.5px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .8s linear infinite;margin-bottom:.5rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+.err{background:rgba(255,61,61,.08);border:1px solid rgba(255,61,61,.2);color:#ff8080;padding:.8rem;border-radius:8px;font-size:.78rem;text-align:center;margin:.5rem 0}
+
+/* TOAST */
+.player-controls{display:flex;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:.5rem .8rem;margin-bottom:.6rem;gap:.5rem}
+.ctrl-btn{background:var(--bg3);border:1px solid var(--border);color:var(--text);padding:.35rem .8rem;border-radius:8px;font-size:.78rem;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:.3rem;transition:.15s}
+.ctrl-btn:hover{border-color:var(--gold);color:var(--gold)}
+.now-playing-ctrl{flex:1;text-align:center;font-size:.75rem;color:var(--muted);display:flex;align-items:center;justify-content:center;gap:.4rem}
+.np-bars{display:flex;align-items:center;gap:2px}
+.np-bar{width:3px;background:var(--live);border-radius:2px;animation:bar 0.8s ease infinite alternate}
+.np-bar:nth-child(1){height:8px;animation-delay:0s}
+.np-bar:nth-child(2){height:14px;animation-delay:0.2s}
+.np-bar:nth-child(3){height:10px;animation-delay:0.4s}
+.np-bar:nth-child(4){height:6px;animation-delay:0.1s}
+@keyframes bar{0%{transform:scaleY(.4)}100%{transform:scaleY(1)}}
+.footer-bar{display:flex;align-items:center;justify-content:space-between;padding:.7rem 1rem;margin-top:.5rem;background:var(--card);border:1px solid var(--border);border-radius:10px}
+.tg-btn{display:flex;align-items:center;gap:.4rem;color:#29a7e1;font-size:.8rem;font-weight:700;cursor:pointer;text-decoration:none}
+.tg-icon{width:28px;height:28px;background:#29a7e1;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1rem}
+.dev-text{font-size:.7rem;color:var(--muted);text-align:right}
+.dev-text span{color:var(--gold);font-weight:700}
+.match-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9999;align-items:center;justify-content:center;padding:1rem}
+.match-modal.open{display:flex}
+.match-modal-box{background:var(--bg2);border:1px solid var(--border);border-radius:16px;padding:1.2rem;width:100%;max-width:420px;max-height:85vh;overflow-y:auto;position:relative}
+.match-modal-box::-webkit-scrollbar{width:3px}
+.match-modal-box::-webkit-scrollbar-thumb{background:var(--border)}
+.mm-close{position:absolute;top:.8rem;right:.8rem;background:none;border:none;color:var(--muted);font-size:1.4rem;cursor:pointer}
+.mm-title{font-size:.9rem;font-weight:800;color:var(--gold);margin-bottom:1rem;text-align:center}
+.mm-score{text-align:center;font-size:2rem;font-weight:800;color:var(--text);margin:.5rem 0}
+.mm-teams{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
+.mm-team{text-align:center;flex:1}
+.mm-team-flag{font-size:2rem}
+.mm-team-name{font-size:.8rem;font-weight:700;margin-top:.3rem}
+.mm-section{font-size:.7rem;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin:.8rem 0 .4rem;border-bottom:1px solid var(--border);padding-bottom:.3rem}
+.mm-goal{display:flex;align-items:center;gap:.5rem;font-size:.8rem;padding:.3rem 0;border-bottom:1px solid rgba(30,45,66,.3)}
+.mm-goal-min{color:var(--gold);font-weight:700;min-width:35px;font-size:.75rem}
+.mm-goal-player{color:var(--text)}
+.mm-goal-team{color:var(--muted);font-size:.7rem}
+.lineup-grid{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.lineup-team{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.6rem}
+.lineup-team-name{font-size:.72rem;font-weight:700;color:var(--gold);margin-bottom:.4rem;text-align:center}
+.lineup-player{font-size:.72rem;color:var(--text);padding:.2rem 0;border-bottom:1px solid rgba(30,45,66,.3);display:flex;gap:.3rem}
+.lineup-player .num{color:var(--muted);min-width:20px}
+.mm-loading{text-align:center;padding:1.5rem;color:var(--muted);font-size:.82rem}
+.toast{position:fixed;bottom:5rem;.match-modal{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9999;align-items:center;justify-content:center;padding:1rem}
+.match-modal.open{display:flex}
+.match-modal-box{background:var(--bg2);border:1px solid var(--border);border-radius:16px;padding:1.2rem;width:100%;max-width:420px;max-height:85vh;overflow-y:auto;position:relative}
+.match-modal-box::-webkit-scrollbar{width:3px}
+.match-modal-box::-webkit-scrollbar-thumb{background:var(--border)}
+.mm-close{position:absolute;top:.8rem;right:.8rem;background:none;border:none;color:var(--muted);font-size:1.4rem;cursor:pointer}
+.mm-title{font-size:.9rem;font-weight:800;color:var(--gold);margin-bottom:1rem;text-align:center}
+.mm-score{text-align:center;font-size:2rem;font-weight:800;color:var(--text);margin:.5rem 0}
+.mm-teams{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
+.mm-team{text-align:center;flex:1}
+.mm-team-flag{font-size:2rem}
+.mm-team-name{font-size:.8rem;font-weight:700;margin-top:.3rem}
+.mm-section{font-size:.7rem;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin:.8rem 0 .4rem;border-bottom:1px solid var(--border);padding-bottom:.3rem}
+.mm-goal{display:flex;align-items:center;gap:.5rem;font-size:.8rem;padding:.3rem 0;border-bottom:1px solid rgba(30,45,66,.3)}
+.mm-goal-min{color:var(--gold);font-weight:700;min-width:35px;font-size:.75rem}
+.mm-goal-player{color:var(--text)}
+.mm-goal-team{color:var(--muted);font-size:.7rem}
+.lineup-grid{display:grid;grid-template-columns:1fr 1fr;gap:.5rem}
+.lineup-team{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.6rem}
+.lineup-team-name{font-size:.72rem;font-weight:700;color:var(--gold);margin-bottom:.4rem;text-align:center}
+.lineup-player{font-size:.72rem;color:var(--text);padding:.2rem 0;border-bottom:1px solid rgba(30,45,66,.3);display:flex;gap:.3rem}
+.lineup-player .num{color:var(--muted);min-width:20px}
+.mm-loading{text-align:center;padding:1.5rem;color:var(--muted);font-size:.82rem}
+.toast{position:fixed;bottom:5rem;left:50%;transform:translateX(-50%) translateY(40px);background:var(--green);color:#000;padding:.45rem 1.1rem;border-radius:16px;font-size:.8rem;font-weight:700;opacity:0;transition:.3s;pointer-events:none;z-index:999;white-space:nowrap}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<div class="bg-img"></div>
+<div class="bg-dim"></div>
+
+<header>
+  <div class="logo">
+    <div class="logo-text">SIAM <span>ARENA</span></div>
+    <div class="logo-badge">LIVE</div>
+  </div>
+  <div class="header-right">
+    <button class="watch-btn" onclick="goLive()">
+      <span class="live-dot"></span> Watch Live
+    </button>
+  </div>
+</header>
+
+<div class="pages">
+
+  <!-- HOME -->
+  <div class="page active" id="page-home">
+    <div class="hero-card">
+      <h2>⚽ World Cup 2026</h2>
+      <p>USA · Canada · Mexico · June–July 2026</p>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-n">48</div><div class="stat-l">Teams</div></div>
+      <div class="stat-card"><div class="stat-n">104</div><div class="stat-l">Matches</div></div>
+      <div class="stat-card"><div class="stat-n">16</div><div class="stat-l">Venues</div></div>
+      <div class="stat-card"><div class="stat-n">3</div><div class="stat-l">Nations</div></div>
+    </div>
+    <div class="sec-title">আজকের ম্যাচ</div>
+    <div id="home-matches"><div class="loading"><div class="spinner"></div><br>লোড হচ্ছে...</div></div>
+  </div>
+
+  <!-- SCHEDULE -->
+  <div class="page" id="page-schedule">
+    <div class="sec-title">সকল ম্যাচ</div>
+    <div id="schedule-content"><div class="loading"><div class="spinner"></div><br>লোড হচ্ছে...</div></div>
+  </div>
+
+  <!-- STANDINGS -->
+  <div class="page" id="page-standings">
+    <div class="sec-title">গ্রুপ স্ট্যান্ডিংস</div>
+    <div class="group-tabs" id="group-tabs"></div>
+    <div id="standings-content"><div class="loading"><div class="spinner"></div><br>লোড হচ্ছে...</div></div>
+  </div>
+
+  <!-- LIVE -->
+  <div class="page" id="page-live">
+    <div class="player-wrap">
+      <video id="player" controls playsinline></video>
+      <div class="ph" id="ph"><div class="ph-icon">📺</div><div>Channel বেছে নিন</div></div>
+    </div>
+    <div class="now-bar" id="now-bar">
+      <span class="np-dot"></span>
+      <span class="np-lbl">চলছে:</span>
+      <span class="np-name" id="np-name"></span>
+      <div class="now-actions">
+        <button class="action-btn" onclick="togglePiP()">🪟 PiP</button>
+        <button class="action-btn" onclick="shareApp()">🔗 Share</button>
+      </div>
+    </div>
+    <div class="player-controls" id="player-ctrl" style="display:none">
+      <button class="ctrl-btn" onclick="prevChannel()">⏮ Prev</button>
+      <div class="now-playing-ctrl">
+        <div class="np-bars"><div class="np-bar"></div><div class="np-bar"></div><div class="np-bar"></div><div class="np-bar"></div></div>
+        <span id="ctrl-name">Channel</span>
+      </div>
+      <button class="ctrl-btn" onclick="nextChannel()">Next ⏭</button>
+    </div>
+    <div class="m3u-row">
+      <input id="m3u-in" type="url" placeholder="M3U URL paste করুন..."/>
+      <button class="play-btn" onclick="playCustom()">▶ Play</button>
+    </div>
+
+    <div class="sec-title">📡 বাংলাদেশি চ্যানেল</div>
+    <div class="ch-grid" style="margin-bottom:.9rem">
+      <div class="ch-card" id="ch-btv" onclick="playC('BTV','https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8')">
+        <div class="ch-icon">📡</div><div class="ch-info"><div class="ch-name">BTV</div><div class="ch-sub badge-live">🔴 ফ্রি · সারা দেশে</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" id="ch-somoy" onclick="playC('Somoy TV','https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8')">
+        <div class="ch-icon">📰</div><div class="ch-info"><div class="ch-name">Somoy TV</div><div class="ch-sub badge-live">🔴 লাইভ</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" id="ch-ntv" onclick="playC('NTV','https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8')">
+        <div class="ch-icon">📺</div><div class="ch-info"><div class="ch-name">NTV</div><div class="ch-sub badge-live">🔴 লাইভ</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" id="ch-jamuna" onclick="playC('Jamuna TV','https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8')">
+        <div class="ch-icon">🌊</div><div class="ch-info"><div class="ch-name">Jamuna TV</div><div class="ch-sub badge-live">🔴 সংবাদ</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" id="ch-channeli" onclick="playC('Channel i','https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8')">
+        <div class="ch-icon">📡</div><div class="ch-info"><div class="ch-name">Channel i</div><div class="ch-sub badge-live">🔴 বিনোদন</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" id="ch-deepto" onclick="playC('Deepto TV','https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8')">
+        <div class="ch-icon">💡</div><div class="ch-info"><div class="ch-name">Deepto TV</div><div class="ch-sub badge-live">🔴 লাইভ</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" id="ch-atn" onclick="playC('ATN Bangla','https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8')">
+        <div class="ch-icon">🎬</div><div class="ch-info"><div class="ch-name">ATN Bangla</div><div class="ch-sub badge-live">🔴 বিনোদন</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="window.open('https://toffee.im','_blank')">
+        <div class="ch-icon">🟢</div><div class="ch-info"><div class="ch-name">Toffee</div><div class="ch-sub badge-app">App · Banglalink</div></div>
+        <span class="ch-arr">↗</span>
+      </div>
+      <div class="ch-card" onclick="window.open('https://bioscope.tv','_blank')">
+        <div class="ch-icon">🔵</div><div class="ch-info"><div class="ch-name">Bioscope+</div><div class="ch-sub badge-app">App · GP</div></div>
+        <span class="ch-arr">↗</span>
+      </div>
+    </div>
+
+    <div class="sec-title">🏆 World Cup চ্যানেল</div>
+    <div class="ch-grid" style="margin-bottom:.9rem">
+      <div class="ch-card" onclick="playC('🏆 FIFA Exclusive','https://fifaexclusive.myziboplay.xyz/Fifa/index.m3u8?token=w-u1u1kQuxLcg3')">
+        <div class="ch-icon">🏆</div><div class="ch-info"><div class="ch-name">FIFA Exclusive</div><div class="ch-sub badge-live">🔴 Official FIFA</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('⚽ T Sports HD','https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8')">
+        <div class="ch-icon">⚽ </div><div class="ch-info"><div class="ch-name">T Sports HD</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('⚽ T Sports 2','https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8')">
+        <div class="ch-icon">⚽ </div><div class="ch-info"><div class="ch-name">T Sports 2</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('⚽ T Sports 3','https://live.tsports.com/mobile_hls/tsports_live_3/playlist.m3u8')">
+        <div class="ch-icon">⚽ </div><div class="ch-info"><div class="ch-name">T Sports 3</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🏏 PTV Sports','https://tvsen5.aynaott.com/PtvSports/index.m3u8')">
+        <div class="ch-icon">🏏 </div><div class="ch-info"><div class="ch-name">PTV Sports</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('⭐ Star Sports','https://tvsen7.aynaott.com/sspts1/tracks-v1a1/mono.ts.m3u8')">
+        <div class="ch-icon">⭐ </div><div class="ch-info"><div class="ch-name">Star Sports</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🏆 Premier League','https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad47832/level_3.m3u8')">
+        <div class="ch-icon">🏆 </div><div class="ch-info"><div class="ch-name">Premier League</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🇮🇳 DD Sports','https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8')">
+        <div class="ch-icon">🇮🇳</div><div class="ch-info"><div class="ch-name">DD Sports</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🇧🇷 Caze TV','https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8')">
+        <div class="ch-icon">🇧🇷</div><div class="ch-info"><div class="ch-name">Caze TV</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('📺 Somoy TV HD','https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8')">
+        <div class="ch-icon">📺 </div><div class="ch-info"><div class="ch-name">Somoy TV HD</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('⚡ Flash Guys','https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8')">
+        <div class="ch-icon">⚡ </div><div class="ch-info"><div class="ch-name">Flash Guys</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🏆 Sports Legends','https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8')">
+        <div class="ch-icon">🏆 </div><div class="ch-info"><div class="ch-name">Sports Legends</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('⚽ Sports Range','https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8')">
+        <div class="ch-icon">⚽ </div><div class="ch-info"><div class="ch-name">Sports Range</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('⚡ Thunder Sports','https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8')">
+        <div class="ch-icon">⚡ </div><div class="ch-info"><div class="ch-name">Thunder Sports</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🎮 Sony Sports Ten 2','https://edge2.roarzone.info:8447/roarzone/edge3/sony-max-2/index.m3u8')">
+        <div class="ch-icon">🎮 </div><div class="ch-info"><div class="ch-name">Sony Sports Ten 2</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🇪🇺 Eurosport HD','https://premierleagpl23.akamaized.net/hls/live/2107108/tapmad47832/level_3.m3u8')">
+        <div class="ch-icon">🇪🇺</div><div class="ch-info"><div class="ch-name">Eurosport HD</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('📡 Al Jazeera','https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8')">
+        <div class="ch-icon">📡 </div><div class="ch-info"><div class="ch-name">Al Jazeera</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('📡 Al Jazeera HD','https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8')">
+        <div class="ch-icon">📡 </div><div class="ch-info"><div class="ch-name">Al Jazeera HD</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('📰 CGTN Doc','https://livedoc.cgtn.com/1000d/prog_index.m3u8')">
+        <div class="ch-icon">📰 </div><div class="ch-info"><div class="ch-name">CGTN Doc</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('📡 BTV News','https://streams.btvlive.gov.bd/live/37f2df30-3edf-42f3-a2ee-6185002c841c/BD/d96eb7f4-83c2-4472-9597-3568390a8ebf/index.m3u8')">
+        <div class="ch-icon">📡 </div><div class="ch-info"><div class="ch-name">BTV News</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+      <div class="ch-card" onclick="playC('🇦🇷 TYC Sports','https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8')">
+        <div class="ch-icon">🇦🇷</div><div class="ch-info"><div class="ch-name">TYC Sports</div><div class="ch-sub badge-live">🔴 Live</div></div>
+        <button class="ch-play">▶</button>
+      </div>
+    </div>
+        <div style="height:1rem"></div>
+  </div>
+
+
+
+<nav class="bottom-nav">
+  <button class="nav-item active" onclick="goPage('home',this)">
+    <span class="nav-icon">🏠</span><span>হোম</span>
+  </button>
+  <button class="nav-item" onclick="goPage('schedule',this)">
+    <span class="nav-icon">📅</span><span>শিডিউল</span>
+  </button>
+  <button class="nav-item" onclick="goPage('standings',this)">
+    <span class="nav-icon">📊</span><span>স্ট্যান্ডিং</span>
+  </button>
+  <button class="nav-item" onclick="goPage('live',this)">
+    <span class="nav-icon">📺</span><span>লাইভ</span>
+  </button>
+</nav>
+
+<div class="toast" id="toast"></div>
+
+<script>
+var API_KEY = '4d030d255e294766bb80bde066a6901c';
+var PROXY = 'https://corsproxy.io/?';
+var BASE = PROXY + encodeURIComponent('https://api.football-data.org/v4');
+var COMP = 'WC';
+var loaded = {};
+var hlsObj = null;
+var vid = document.getElementById('player');
+
+function flag(tla){
+  if(!tla) return '🏳️';
+  if(tla==='ENG') return '🏴󠁧󠁢󠁥󠁮󠁧󠁿';
+  var c = tla.slice(0,2).toUpperCase();
+  return [...c].map(ch=>String.fromCodePoint(0x1F1E6+ch.charCodeAt(0)-65)).join('');
+}
+function bdTime(d){
+  return new Date(d).toLocaleTimeString('en-BD',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Dhaka'});
+}
+function bdDate(d){
+  return new Date(d).toLocaleDateString('en-BD',{weekday:'short',day:'numeric',month:'short',timeZone:'Asia/Dhaka'});
+}
+function isToday(d){
+  var a=new Date(d), b=new Date();
+  return a.toDateString()===b.toDateString();
+}
+
+async function apiFetch(path){
+  var url = PROXY + encodeURIComponent('https://api.football-data.org/v4'+path);
+  var r = await fetch(url, {headers:{'X-Auth-Token':API_KEY}});
+  if(!r.ok) throw new Error('API '+r.status);
+  return r.json();
+}
+
+function matchCard(m, showVenue){
+  var home=m.homeTeam, away=m.awayTeam;
+  var inPlay=m.status==='IN_PLAY'||m.status==='PAUSED';
+  var ft=m.status==='FINISHED';
+  var s=m.score&&m.score.fullTime;
+  var statusHtml = inPlay
+    ? '<span class="status-live">🔴 LIVE</span>'
+    : ft ? '<span class="status-ft">FT</span>'
+    : '<span class="status-soon">'+bdTime(m.utcDate)+'</span>';
+  var scoreHtml = (inPlay||ft)
+    ? '<div class="score-num">'+(s&&s.home!==null?s.home:0)+' – '+(s&&s.away!==null?s.away:0)+'</div>'
+    : '<div class="score-vs">vs</div>';
+  var grp = m.group ? m.group.replace('GROUP_','Group ') : (m.stage||'').replace(/_/g,' ');
+  var matchId = m.id||'';
+  var safeM = {
+    id:m.id,
+    status:m.status,
+    utcDate:m.utcDate,
+    group:m.group||'',
+    stage:m.stage||'',
+    homeTeam:{name:m.homeTeam.name,shortName:m.homeTeam.shortName||m.homeTeam.name,tla:m.homeTeam.tla||''},
+    awayTeam:{name:m.awayTeam.name,shortName:m.awayTeam.shortName||m.awayTeam.name,tla:m.awayTeam.tla||''},
+    score:m.score
+  };
+  // Store in window object to avoid HTML attribute issues
+  var mkey = 'match_'+m.id;
+  window[mkey] = safeM;
+  return '<div class="match-card" onclick="openMatchDetail(window[''+mkey+''])" style="cursor:pointer">'
+    +'<div class="match-top"><span class="match-group">'+grp+'</span>'+statusHtml+'</div>'
+    +'<div class="match-body">'
+    +'<div class="team"><span class="team-flag">'+flag(home.tla)+'</span><span class="team-name">'+(home.shortName||home.name)+'</span></div>'
+    +'<div class="score-box">'+scoreHtml+'</div>'
+    +'<div class="team"><span class="team-flag">'+flag(away.tla)+'</span><span class="team-name">'+(away.shortName||away.name)+'</span></div>'
+    +'</div>'
+    +(showVenue&&m.venue?'<div class="match-venue">📍 '+m.venue+'</div>':'')
+    +'</div>';
+}
+
+async function loadHome(){
+  var el=document.getElementById('home-matches');
+  try{
+    var today=new Date().toISOString().split('T')[0];
+    // Get yesterday for results + today for live/upcoming
+    var yesterday=new Date(); yesterday.setDate(yesterday.getDate()-1);
+    var yd=yesterday.toISOString().split('T')[0];
+    var d=await apiFetch('/competitions/'+COMP+'/matches?dateFrom='+yd+'&dateTo='+today);
+    var matches=(d&&d.matches)?d.matches:[];
+    if(!matches.length){el.innerHTML='<div class="loading">আজ কোনো ম্যাচ নেই</div>';return;}
+    // Sort: live first, then upcoming, then finished
+    var live=matches.filter(function(m){return m.status==='IN_PLAY'||m.status==='PAUSED';});
+    var upcoming=matches.filter(function(m){return m.status==='SCHEDULED'||m.status==='TIMED';});
+    var finished=matches.filter(function(m){return m.status==='FINISHED';});
+    var sorted=live.concat(upcoming).concat(finished);
+    // Section headers
+    var html='';
+    if(live.length) html+='<div class="date-div">🔴 এখন চলছে</div>'+live.map(m=>matchCardFD(m,true)).join('');
+    if(upcoming.length) html+='<div class="date-div">⏰ আজকের ম্যাচ</div>'+upcoming.map(m=>matchCardFD(m,true)).join('');
+    if(finished.length) html+='<div class="date-div">✅ ফলাফল</div>'+finished.map(m=>matchCardFD(m,true)).join('');
+    el.innerHTML=html;
+  }catch(e){
+    el.innerHTML='<div class="err">⚠️ Data লোড হয়নি — API key সেট করুন<br><small>football-data.org থেকে free key নিন</small></div>';
+  }
+}
+
+async function loadSchedule(){
+  var el=document.getElementById('schedule-content');
+  try{
+    var from=new Date().toISOString().split('T')[0];
+    var end=new Date(); end.setDate(end.getDate()+14);
+    var to=end.toISOString().split('T')[0];
+    var d=await apiFetch('/competitions/'+COMP+'/matches?dateFrom='+from+'&dateTo='+to);
+    var matches=(d&&d.matches)?d.matches:[];
+    if(!matches.length){el.innerHTML='<div class="loading">কোনো ম্যাচ নেই</div>';return;}
+    var html='', lastDate='';
+    matches.forEach(function(m){
+      var dt=new Date(m.utcDate).toLocaleDateString('en-BD',{weekday:'short',day:'numeric',month:'short',timeZone:'Asia/Dhaka'});
+      if(dt!==lastDate){html+='<div class="date-div">'+dt+'</div>';lastDate=dt;}
+      html+=matchCardFD(m,true);
+    });
+    el.innerHTML=html;
+  }catch(e){
+    el.innerHTML='<div class="err">⚠️ Schedule লোড হয়নি</div>';
+  }
+}
+
+var standData=null;
+async function loadStandings(){
+  var el=document.getElementById('standings-content');
+  var tabs=document.getElementById('group-tabs');
+  try{
+    var d=await apiFetch('/competitions/'+COMP+'/standings');
+    standData=(d&&d.standings)?d.standings.filter(function(s){return s.type==='TOTAL';}):[];
+    if(!standData.length) throw new Error('No standings');
+    tabs.innerHTML=standData.map(function(g,i){
+      var name=g.group?g.group.replace('GROUP_','Group '):('G'+(i+1));
+      return '<button class="g-tab'+(i===0?' active':'')+'" onclick="showGroup('+i+',this)">'+name+'</button>';
+    }).join('');
+    showGroupTable(standData[0]);
+  }catch(e){
+    el.innerHTML='<div class="err">⚠️ Standings লোড হয়নি</div>';
+  }
+}
+
+function showGroup(idx,btn){
+  document.querySelectorAll('.g-tab').forEach(function(t){t.classList.remove('active');});
+  btn.classList.add('active');
+  showGroupTable(standData[idx]);
+}
+
+function showGroupTable(g){
+  var el=document.getElementById('standings-content');
+  var rows=g.table.map(function(t,i){
+    var q=i<2;
+    var diff=t.goalDifference;
+    return '<tr>'
+      +'<td><span class="pos '+(q?'pos-q':'pos-n')+'">'+t.position+'</span></td>'
+      +'<td><div class="team-cell">'+flag(t.team.tla)+' '+(t.team.shortName||t.team.name)+'</div></td>'
+      +'<td>'+t.playedGames+'</td><td>'+t.won+'</td><td>'+t.draw+'</td><td>'+t.lost+'</td>'
+      +'<td style="color:'+(diff>=0?'var(--green)':'var(--live)')+'">'+( diff>0?'+':'')+diff+'</td>'
+      +'<td style="font-weight:700;color:var(--gold)">'+t.points+'</td>'
+      +'</tr>';
+  }).join('');
+  el.innerHTML='<div style="overflow-x:auto"><table class="stand-table">'
+    +'<thead><tr><th>#</th><th>দল</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>'
+    +'<tbody>'+rows+'</tbody></table></div>'
+    +'<div style="font-size:.65rem;color:var(--muted);margin-top:.4rem">🟢 = পরবর্তী রাউন্ডে যাবে</div>';
+}
+
+
+
+
+function matchCardFD(m, showVenue){
+  var home=m.homeTeam, away=m.awayTeam;
+  var inPlay=m.status==='IN_PLAY'||m.status==='PAUSED';
+  var ft=m.status==='FINISHED';
+  var s=m.score&&m.score.fullTime;
+  var bdTime='';
+  try{
+    bdTime=new Date(m.utcDate).toLocaleTimeString('en-BD',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Dhaka'});
+  }catch(e){}
+  var grp=m.group?m.group.replace('GROUP_','Group '):(m.stage||'').replace(/_/g,' ');
+  var statusHtml=inPlay
+    ?'<span class="status-live">🔴 LIVE</span>'
+    :ft?'<span class="status-ft">FT</span>'
+    :'<span class="status-soon">'+bdTime+'</span>';
+  var scoreHtml=(inPlay||ft)
+    ?'<div class="score-num">'+(s&&s.home!==null?s.home:0)+' – '+(s&&s.away!==null?s.away:0)+'</div>'
+    :'<div class="score-vs">vs</div>';
+  var dateStr='';
+  try{dateStr=new Date(m.utcDate).toLocaleDateString('en-BD',{day:'numeric',month:'short',timeZone:'Asia/Dhaka'});}catch(e){}
+  var matchId = m.id||'';
+  var safeM = {
+    id:m.id,
+    status:m.status,
+    utcDate:m.utcDate,
+    group:m.group||'',
+    stage:m.stage||'',
+    homeTeam:{name:m.homeTeam.name,shortName:m.homeTeam.shortName||m.homeTeam.name,tla:m.homeTeam.tla||''},
+    awayTeam:{name:m.awayTeam.name,shortName:m.awayTeam.shortName||m.awayTeam.name,tla:m.awayTeam.tla||''},
+    score:m.score
+  };
+  // Store in window object to avoid HTML attribute issues
+  var mkey = 'match_'+m.id;
+  window[mkey] = safeM;
+  return '<div class="match-card" onclick="openMatchDetail(window[''+mkey+''])" style="cursor:pointer">'
+    +'<div class="match-top"><span class="match-group">'+grp+'</span>'+statusHtml+'</div>'
+    +'<div class="match-body">'
+    +'<div class="team"><span class="team-flag">'+flag(home.tla)+'</span><span class="team-name">'+(home.shortName||home.name)+'</span></div>'
+    +'<div class="score-box">'+scoreHtml+'</div>'
+    +'<div class="team"><span class="team-flag">'+flag(away.tla)+'</span><span class="team-name">'+(away.shortName||away.name)+'</span></div>'
+    +'</div>'
+    +(showVenue&&m.venue?'<div class="match-venue">📍 '+m.venue+'</div>':'')
+    +'<div class="match-time">📅 '+dateStr+' · ⏰ '+bdTime+' BDT</div>'
+    +'</div>';
+}
+
+function matchCardTSDB(m, showVenue){
+  var home = m.strHomeTeam||'Home';
+  var away = m.strAwayTeam||'Away';
+  var hs = m.intHomeScore;
+  var as = m.intAwayScore;
+  var hasScore = hs!==null && hs!=='' && hs!==undefined;
+  var status = m.strStatus||'NS';
+  var inPlay = status==='1H'||status==='HT'||status==='2H'||status==='Live';
+  var ft = status==='FT'||status==='AOT'||status==='PEN';
+  // Convert UTC time to BD time
+  var bdTime = '';
+  if(m.dateEvent && m.strTime){
+    try{
+      var utc = new Date(m.dateEvent+'T'+m.strTime+'Z');
+      bdTime = utc.toLocaleTimeString('en-BD',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Dhaka'});
+    }catch(e){ bdTime = m.strTime ? m.strTime.slice(0,5) : ''; }
+  }
+  var round = m.strRound||m.intRound||'';
+  var statusHtml = inPlay
+    ? '<span class="status-live">🔴 LIVE</span>'
+    : ft ? '<span class="status-ft">FT</span>'
+    : '<span class="status-soon">'+(bdTime||'TBD')+'</span>';
+  var scoreHtml = hasScore
+    ? '<div class="score-num">'+(hs||0)+' – '+(as||0)+'</div>'
+    : '<div class="score-vs">vs</div>';
+  var matchId = m.id||'';
+  var safeM = {
+    id:m.id,
+    status:m.status,
+    utcDate:m.utcDate,
+    group:m.group||'',
+    stage:m.stage||'',
+    homeTeam:{name:m.homeTeam.name,shortName:m.homeTeam.shortName||m.homeTeam.name,tla:m.homeTeam.tla||''},
+    awayTeam:{name:m.awayTeam.name,shortName:m.awayTeam.shortName||m.awayTeam.name,tla:m.awayTeam.tla||''},
+    score:m.score
+  };
+  // Store in window object to avoid HTML attribute issues
+  var mkey = 'match_'+m.id;
+  window[mkey] = safeM;
+  return '<div class="match-card" onclick="openMatchDetail(window[''+mkey+''])" style="cursor:pointer">'
+    +'<div class="match-top"><span class="match-group">'+(round?'Round '+round:'')+'</span>'+statusHtml+'</div>'
+    +'<div class="match-body">'
+    +'<div class="team"><span class="team-flag">'+flag((home).slice(0,3).toUpperCase())+'</span><span class="team-name">'+home+'</span></div>'
+    +'<div class="score-box">'+scoreHtml+'</div>'
+    +'<div class="team"><span class="team-flag">'+flag((away).slice(0,3).toUpperCase())+'</span><span class="team-name">'+away+'</span></div>'
+    +'</div>'
+    +(showVenue&&m.strVenue?'<div class="match-venue">📍 '+m.strVenue+'</div>':'')
+    +'<div class="match-time">📅 '+m.dateEvent+(bdTime?' · ⏰ '+bdTime+' BDT':'')+'</div>'
+    +'</div>';
+}
+
+function matchCardAF(m, showVenue){
+  var home = m.match_hometeam_name||'Home';
+  var away = m.match_awayteam_name||'Away';
+  var hs = m.match_hometeam_score;
+  var as = m.match_awayteam_score;
+  var status = m.match_status||'';
+  var inPlay = status==='1H'||status==='HT'||status==='2H'||status==='ET'||status==='P';
+  var ft = status==='FT'||status==='AET'||status==='PEN';
+  var statusHtml = inPlay
+    ? '<span class="status-live">🔴 LIVE '+status+'</span>'
+    : ft ? '<span class="status-ft">FT</span>'
+    : '<span class="status-soon">'+m.match_time+'</span>';
+  var scoreHtml = (inPlay||ft)
+    ? '<div class="score-num">'+(hs||0)+' – '+(as||0)+'</div>'
+    : '<div class="score-vs">vs</div>';
+  var matchId = m.id||'';
+  var safeM = {
+    id:m.id,
+    status:m.status,
+    utcDate:m.utcDate,
+    group:m.group||'',
+    stage:m.stage||'',
+    homeTeam:{name:m.homeTeam.name,shortName:m.homeTeam.shortName||m.homeTeam.name,tla:m.homeTeam.tla||''},
+    awayTeam:{name:m.awayTeam.name,shortName:m.awayTeam.shortName||m.awayTeam.name,tla:m.awayTeam.tla||''},
+    score:m.score
+  };
+  // Store in window object to avoid HTML attribute issues
+  var mkey = 'match_'+m.id;
+  window[mkey] = safeM;
+  return '<div class="match-card" onclick="openMatchDetail(window[''+mkey+''])" style="cursor:pointer">'
+    +'<div class="match-top"><span class="match-group">'+(m.match_round?'Round '+m.match_round:'')+'</span>'+statusHtml+'</div>'
+    +'<div class="match-body">'
+    +'<div class="team"><span class="team-flag">'+flag(home.slice(0,3).toUpperCase())+'</span><span class="team-name">'+home+'</span></div>'
+    +'<div class="score-box">'+scoreHtml+'</div>'
+    +'<div class="team"><span class="team-flag">'+flag(away.slice(0,3).toUpperCase())+'</span><span class="team-name">'+away+'</span></div>'
+    +'</div>'
+    +(showVenue&&m.match_stadium?'<div class="match-venue">📍 '+m.match_stadium+'</div>':'')
+    +'</div>';
+}
+
+function goPage(name,btn){
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active');});
+  document.querySelectorAll('.nav-item').forEach(function(b){b.classList.remove('active');});
+  document.getElementById('page-'+name).classList.add('active');
+  btn.classList.add('active');
+  if(!loaded[name]){
+    loaded[name]=true;
+    if(name==='home') loadHome();
+    if(name==='schedule') loadSchedule();
+    if(name==='standings') loadStandings();
+  }
+}
+
+function goLive(){
+  document.querySelectorAll('.page').forEach(function(p){p.classList.remove('active');});
+  document.querySelectorAll('.nav-item').forEach(function(b){b.classList.remove('active');});
+  document.getElementById('page-live').classList.add('active');
+  document.querySelectorAll('.nav-item')[3].classList.add('active');
+}
+
+function loadStream(url,name){
+  // Show player controls
+  document.getElementById('player-ctrl').style.display='flex';
+  document.getElementById('ctrl-name').textContent=name;
+  // Update currentChIdx
+  if(!allChannels.length) buildChannelList();
+  for(var i=0;i<allChannels.length;i++){
+    if(allChannels[i].url===url){currentChIdx=i;break;}
+  }
+  // If HTTP url, use proxy to bypass mixed content block
+  if(url.startsWith('http://')){
+    url = 'https://proxy.cors.sh/' + url;
+  }  document.getElementById('ph').style.display='none';
+  var nb=document.getElementById('now-bar'); nb.classList.add('show');
+  document.getElementById('np-name').textContent=name;
+  if(hlsObj){hlsObj.destroy();hlsObj=null;}
+  if(Hls.isSupported()){
+    hlsObj=new Hls({enableWorker:true,lowLatencyMode:true});
+    hlsObj.loadSource(url); hlsObj.attachMedia(vid);
+    hlsObj.on(Hls.Events.MANIFEST_PARSED,function(){vid.play().catch(function(){});});
+    hlsObj.on(Hls.Events.ERROR,function(e,d){if(d.fatal)document.getElementById('np-name').textContent='⚠️ লোড হয়নি';});
+  } else if(vid.canPlayType('application/vnd.apple.mpegurl')){
+    vid.src=url; vid.play().catch(function(){});
+  }
+}
+
+var allChannels = [];
+var currentChIdx = -1;
+
+function buildChannelList(){
+  allChannels = [];
+  document.querySelectorAll('#page-live .ch-card[onclick]').forEach(function(card){
+    var onclick = card.getAttribute('onclick');
+    var m = onclick.match(/playC\('([^']+)','([^']+)'\)/);
+    if(m) allChannels.push({name:m[1], url:m[2]});
+  });
+}
+
+function prevChannel(){
+  if(!allChannels.length) buildChannelList();
+  if(currentChIdx > 0) currentChIdx--;
+  else currentChIdx = allChannels.length - 1;
+  var ch = allChannels[currentChIdx];
+  loadStream(ch.url, ch.name);
+  document.getElementById('ctrl-name').textContent = ch.name;
+}
+
+function nextChannel(){
+  if(!allChannels.length) buildChannelList();
+  if(currentChIdx < allChannels.length - 1) currentChIdx++;
+  else currentChIdx = 0;
+  var ch = allChannels[currentChIdx];
+  loadStream(ch.url, ch.name);
+  document.getElementById('ctrl-name').textContent = ch.name;
+}
+
+function playC(name,url){
+  document.querySelectorAll('.ch-card').forEach(function(c){c.classList.remove('active');});
+  var id='ch-'+name.toLowerCase().replace(/\s+hd/,'').replace(/\s+/g,'');
+  var card=document.getElementById(id);
+  if(card) card.classList.add('active');
+  loadStream(url,name);
+}
+
+function playCustom(){
+  var url=document.getElementById('m3u-in').value.trim();
+  if(!url){showToast('M3U URL দিন');return;}
+  document.querySelectorAll('.ch-card').forEach(function(c){c.classList.remove('active');});
+  loadStream(url,'Custom');
+}
+
+function togglePiP(){
+  if(!vid.currentSrc){showToast('আগে channel চালু করুন');return;}
+  if(document.pictureInPictureElement){
+    document.exitPictureInPicture();
+  } else if(document.pictureInPictureEnabled){
+    vid.requestPictureInPicture().catch(function(){showToast('PiP চালু হয়নি');});
+  }
+}
+
+function closeMatchModal(){
+  document.getElementById('match-modal').classList.remove('open');
+}
+
+async function openMatchDetail(m){
+  document.getElementById('match-modal').classList.add('open');
+  var home = m.homeTeam.shortName||m.homeTeam.name;
+  var away = m.awayTeam.shortName||m.awayTeam.name;
+  document.getElementById('mm-title').textContent = home + ' vs ' + away;
+
+  var s = m.score&&m.score.fullTime;
+  var hs = s&&s.home!==null?s.home:'';
+  var as = s&&s.away!==null?s.away:'';
+  var grp = m.group?m.group.replace('GROUP_','Group '):(m.stage||'').replace(/_/g,' ');
+  var inPlay = m.status==='IN_PLAY'||m.status==='PAUSED';
+  var ft = m.status==='FINISHED';
+  var status = inPlay?'🔴 LIVE':ft?'FT':'';
+  var bdTime='';
+  try{bdTime=new Date(m.utcDate).toLocaleTimeString('en-BD',{hour:'2-digit',minute:'2-digit',timeZone:'Asia/Dhaka'});}catch(e){}
+
+  // Build stream search query
+  var homeSearch = (m.homeTeam.name||home).toLowerCase().replace(/\s+/g,'-');
+  var awaySearch = (m.awayTeam.name||away).toLowerCase().replace(/\s+/g,'-');
+
+  var streamSites = [];
+
+  var html = '';
+  // Teams + Score header
+  html += '<div class="mm-teams">';
+  html += '<div class="mm-team"><div class="mm-team-flag">'+flag(m.homeTeam.tla)+'</div><div class="mm-team-name">'+home+'</div></div>';
+  if(ft||inPlay){
+    html += '<div style="text-align:center"><div class="mm-score">'+hs+' – '+as+'</div><div style="font-size:.7rem;color:var(--muted)">'+grp+' · '+status+'</div></div>';
+  } else {
+    html += '<div style="text-align:center"><div style="font-size:.9rem;color:var(--gold);font-weight:700">'+bdTime+' BDT</div><div style="font-size:.7rem;color:var(--muted)">'+grp+'</div></div>';
+  }
+  html += '<div class="mm-team"><div class="mm-team-flag">'+flag(m.awayTeam.tla)+'</div><div class="mm-team-name">'+away+'</div></div>';
+  html += '</div>';
+
+
+
+  // BD Channels
+  html += '<div class="mm-section" style="margin-top:.8rem">📡 বাংলাদেশি চ্যানেল</div>';
+  html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem">';
+  var bdChs = [
+    {name:'BTV', url:'https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8'},
+    {name:'T Sports', url:'https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8'},
+    {name:'Somoy TV', url:'https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8'},
+    {name:'NTV', url:'https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8'},
+  ];
+  bdChs.forEach(function(ch){
+    html += '<button onclick="closeMatchModal();goPage('live',document.querySelectorAll('.nav-item')[3]);playC(''+ch.name+'',''+ch.url+'')" style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.6rem;color:var(--text);font-size:.78rem;font-weight:600;cursor:pointer;transition:.15s">📺 '+ch.name+'</button>';
+  });
+  html += '</div>';
+
+  document.getElementById('mm-content').innerHTML = html;
+}
+
+function shareApp(){
+  if(navigator.share){navigator.share({title:'Siam Arena',url:location.href});}
+  else{navigator.clipboard.writeText(location.href).then(function(){showToast('✅ Link copied!');});}
+}
+
+function showToast(msg){
+  var t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(function(){t.classList.remove('show');},2500);
+}
+
+loaded.home=true;
+loadHome();
+setInterval(loadHome,60000);
+</script>
+
+<!-- Analytics & Visitor Counter -->
+<div style="position:fixed;bottom:4.5rem;right:.8rem;z-index:50;display:flex;flex-direction:column;align-items:flex-end;gap:.4rem">
+  <a href="https://siam-areana.goatcounter.com" target="_blank" style="text-decoration:none">
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=siamahmeed563-lab.Siam-areana&left_color=%23141d2e&right_color=%23f5c518&left_text=Visitors" 
+         alt="visitors" style="border-radius:8px;height:22px"/>
+  </a>
+  <div id="gc-count" style="background:#141d2e;border:1px solid #1e2d42;color:#f5c518;font-size:.7rem;padding:.2rem .6rem;border-radius:8px;font-weight:700;display:none">
+    📊 <span id="gc-num">0</span> views today
+  </div>
+</div>
+<!-- Match Detail Modal -->
+<div class="match-modal" id="match-modal" onclick="if(event.target===this)closeMatchModal()">
+  <div class="match-modal-box">
+    <button class="mm-close" onclick="closeMatchModal()">✕</button>
+    <div class="mm-title" id="mm-title">Match Details</div>
+    <div id="mm-content"><div class="mm-loading">লোড হচ্ছে...</div></div>
+  </div>
+</div>
+
+<script data-goatcounter="https://siam-areana.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>
