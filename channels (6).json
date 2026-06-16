@@ -1,0 +1,42 @@
+{
+  "bangladeshi": [
+    { "name": "BTV", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8" },
+    { "name": "Somoy TV", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8" },
+    { "name": "NTV", "icon": "📺", "sub": "🔴 লাইভ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8" },
+    { "name": "Jamuna TV", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8" },
+    { "name": "Channel i", "icon": "📡", "sub": "🔴 বিনোদন", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8" },
+    { "name": "Deepto TV", "icon": "💡", "sub": "🔴 লাইভ", "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8" },
+    { "name": "ATN Bangla", "icon": "🎬", "sub": "🔴 বিনোদন", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8" },
+    { "name": "T Sports", "icon": "🏏", "sub": "🔴 লাইভ", "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8" }
+  ],
+  "sports": [
+    { "name": "Win Sports 4K", "icon": "⚽", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8" },
+    { "name": "BeIN Sports Direct", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
+    { "name": "TYC Sports", "icon": "🇦🇷", "sub": "🔴 লাইভ", "url": "https://tv.topmediatv.net:25463/live/TopMediaWeb/bOteTR8ED1/8631.m3u8" },
+    { "name": "TYC Sports Int", "icon": "🇦🇷", "sub": "🔴 লাইভ", "url": "http://190.7.19.197:232/play/a04w/index.m3u8" },
+    { "name": "TNT Sports ARG", "icon": "🇦🇷", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/30/index.m3u8" },
+    { "name": "Caze TV", "icon": "🇧🇷", "sub": "🔴 লাইভ", "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8" },
+    { "name": "Zbo Play FIFA", "icon": "⚽", "sub": "🔴 লাইভ", "url": "https://fifaexclusive.myziboplay.xyz/Fifa/index.m3u8?token=w-u1u1kQuxLcg3" },
+    { "name": "Dazn Direct", "icon": "🎯", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8" },
+    { "name": "TPV Sport", "icon": "🏅", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8" },
+    { "name": "D Sports", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8" },
+    { "name": "D Sports 2", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8" },
+    { "name": "Somoy TV FIFA", "icon": "🕛", "sub": "🔴 লাইভ", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
+    { "name": "Zee Bangla Sunar", "icon": "🇨🇮", "sub": "🔴 লাইভ", "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/master2.m3u8" },
+    { "name": "Willow Extra", "icon": "🏏", "sub": "🔴 Cricket", "url": "http://27.124.71.27/Willow_Extra/index.m3u8" },
+    { "name": "Fox Sports 1", "icon": "🦊", "sub": "🔴 লাইভ", "url": "http://41.223.30.230/FOXSPORTS1/index.m3u8" },
+    { "name": "beIN Sports", "icon": "🏆", "sub": "🔴 720p", "url": "https://d9ssxzmclhfo4.cloudfront.net/bein_sports720p.m3u8" },
+    { "name": "OTT Club Ch1", "icon": "📺", "sub": "🔴 লাইভ", "url": "http://ytoxw6un.ottclub.xyz/iptv/KCUHA6DGYYVA8ZZFUPQV3KZH/6408/index.m3u8" },
+    { "name": "OTT Club Ch2", "icon": "📺", "sub": "🔴 লাইভ", "url": "http://ytoxw6un.ottclub.xyz/iptv/VSQZTL9D68WBD9/6126/index.m3u8" },
+    { "name": "Channel A5X", "icon": "📡", "sub": "🔴 লাইভ", "url": "http://103.157.248.140:8000/play/a05x/index.m3u8" },
+    { "name": "Channel A5W", "icon": "📡", "sub": "🔴 লাইভ", "url": "http://190.108.83.69:8000/play/a05w/index.m3u8" },
+    { "name": "UA Online", "icon": "🌐", "sub": "🔴 লাইভ", "url": "http://ua.online24.pm/play/1103/350B326FB34F4B8/video.m3u8" },
+    { "name": "RTBGO Live", "icon": "📻", "sub": "🔴 FHD", "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8" },
+    { "name": "OpenSource FHD", "icon": "🎥", "sub": "🔴 60fps", "url": "https://fhd60fps-by-opensourecflix.exmax.workers.dev/index.m3u8" },
+    { "name": "StarHub S1", "icon": "⭐", "sub": "🔴 লাইভ", "url": "http://starhub.pro/live/farhat-3379/67897-913379/742610.ts" },
+    { "name": "StarHub S2", "icon": "⭐", "sub": "🔴 লাইভ", "url": "http://starhub.pro/live/farhat-3379/67897-913379/744523.ts" },
+    { "name": "StarHub S3", "icon": "⭐", "sub": "🔴 লাইভ", "url": "http://starhub.pro/live/farhat-3379/67897-913379/741567.ts" },
+    { "name": "RGKKW S1", "icon": "🔴", "sub": "🔴 লাইভ", "url": "http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/745149.ts" },
+    { "name": "RGKKW S2", "icon": "🔴", "sub": "🔴 লাইভ", "url": "http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/741566.ts" }
+  ]
+}
