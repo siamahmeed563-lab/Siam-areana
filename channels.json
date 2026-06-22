@@ -1,6 +1,6 @@
 {
   "bangladeshi": [
-    { "name": "BTV", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8" },
+    { "name": "BIOSCOPE + (FIFA)", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8" },
     { "name": "Channel 1 HD", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8" },
     { "name": "NTV", "icon": "📺", "sub": "🔴 লাইভ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8" },
     { "name": "Jamuna TV", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8" },
