@@ -9,11 +9,11 @@
     { "name": "ATN Bangla", "icon": "🎬", "sub": "🔴 বিনোদন", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8" }
   ],
   "sports": [
-    { "name": "RTV GO", "icon": "⚽", "url": "https://d1211whpimeups.cloudfront.net/smil:rtb2/chunklist_b608000_sleng.m3u8" },
+    { "name": "Fox 26", "icon": "⚽", "url": "https://inproviszon.st/fox-1.m3u8" },
     { "name": "Go Live", "icon": "🎥", "url": "https://nowzyplus.live/stream-proxy?url=https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8" },
-    { "name": "Korra City", "icon": "⚽", "url": "https://ed.omener.xyz/qoozn2_720/index.m3u8" },
+    { "name": "korra city", "icon": "⚽", "url": "https://wa.newzela.online/tooota1_720/index.m3u8" },
     { "name": "MAT4", "icon": "📡", "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8" },
-    { "name": "CC TV 5", "icon": "🇨🇳", "url": "https://live.wxinxi.com/live/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8" },
+    { "name": "cctv 5", "icon": "🇨🇳", "url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8" },
     { "name": "TSN 4", "icon": "🏆", "url": "https://ataide0.sman1asjap.my.id/tsn.m3u8" },
     { "name": "Bein Sports 1 (Arabic)", "icon": "🇸🇦", "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8" },
     { "name": "Cola tv live", "icon": "🎙️", "url": "https://live05.msdht.app/live/24561735.m3u8" },
