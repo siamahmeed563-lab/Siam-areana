@@ -2,14 +2,14 @@
   "bangladeshi": [
     { "name": "BIOSCOPE + (FIFA)", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8" },
     { "name": "Toffe world cup ", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8?nocache=1782146598612" },
-    { "name": "NTV", "icon": "📺", "sub": "🔴 লাইভ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8" },
+    { "name": "T SPORTS", "icon": "📺", "sub": "🔴 লাইভ", "url": "https://trs1.aynaott.com/tsports/index.m3u8" },
     { "name": "Jamuna TV", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8" },
     { "name": "Channel i", "icon": "📡", "sub": "🔴 বিনোদন", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8" },
     { "name": "Deepto TV", "icon": "💡", "sub": "🔴 লাইভ", "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8" },
     { "name": "ATN Bangla", "icon": "🎬", "sub": "🔴 বিনোদন", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8" }
   ],
   "sports": [
-    { "name": "Fox 26", "icon": "⚽", "url": "https://fo01-bkm.beetv.kz/bpk-tv/000003038/tve/index.m3u8" },
+    { "name": "UNITED SPORTS 2 (hd)", "icon": "⚽", "url": "https://trs1.aynaott.com/ptvsports/tracks-v1a1/mono.ts.m3u8" },
     { "name": "Corra city (360p)", "icon": "🎥", "url": "https://az.usenmoo.online/test2_360/index.m3u8" },
     { "name": "korra city(720p)", "icon": "⚽", "url": "https://az.usenmoo.online/test2_720/index.m3u8" },
     { "name": "spORTS TV -1", "icon": "📡", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u800/4796141934.m3u8" },
