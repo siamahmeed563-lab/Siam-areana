@@ -1,35 +1,33 @@
 #EXTM3U
-
 #EXTINF:-1 group-title="Bangladeshi",BIOSCOPE + (FIFA)
 https://bioscope.sm-monirulislam-exp.workers.dev/bioscope.m3u8
-#EXTINF:-1 group-title="Bangladeshi",Toffe World Cup
+#EXTINF:-1 group-title="Bangladeshi",Toffe world cup 
 https://sm-monirul.top/tof/live/toffee4/index.m3u8?nocache=1782146598612
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS (HD)
 https://trs1.aynaott.com/tsports/index.m3u8
-#EXTINF:-1 group-title="Bangladeshi",Jamuna TV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8
-#EXTINF:-1 group-title="Bangladeshi",Channel i
-https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
-#EXTINF:-1 group-title="Bangladeshi",Deepto TV
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
+#EXTINF:-1 group-title="Bangladeshi",BTV
+https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangladeshi",i- Screen 
+https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8
+#EXTINF:-1 group-title="Bangladeshi",JAMUNA TV
+https://cdn.jsdelivr.net/gh/nurmd2006/empty@main/stream/by/your-abbu/nurmd2006/offline-channels/jamunatv.m3u8
 #EXTINF:-1 group-title="Bangladeshi",ATN Bangla
 https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
-
-#EXTINF:-1 group-title="Sports",UNITED SPORTS 2 (HD)
-https://trs1.aynaott.com/ptvsports/tracks-v1a1/mono.ts.m3u
-#EXTINF:-1 group-title="Sports",Go Live
-https://nowzyplus.live/stream-proxy?url=https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist_b4096000_slENG.m3u8
-#EXTINF:-1 group-title="Sports",Korra City
-https://wa.newzela.online/tooota1_720/index.m3u8
-#EXTINF:-1 group-title="Sports",MAT4
-https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#EXTINF:-1 group-title="Sports",CCTV 5
+#EXTINF:-1 group-title="Sports",bEIN SPORTS
+https://s3.us-east-2.amazonaws.com/cdna202/live/stream/720p/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Sports",UNITED SPORTS 2
+https://trs1.aynaott.com/ptvsports/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 group-title="Sports",korra city
+https://sh.clouata.space/wooorle2_480/index.m3u8
+#EXTINF:-1 group-title="Sports",CORRA CiTY 2
+https://ex.creatas.site/poolos1_480/index.m3u8
+#EXTINF:-1 group-title="Sports",cctv 5
 https://play1.gzxdby.com/live/783234345958_4547667094.m3u8
-#EXTINF:-1 group-title="Sports",TSN 4
-https://ataide0.sman1asjap.my.id/tsn.m3u8
+#EXTINF:-1 group-title="Sports",26 FOX
+https://inproviszon.st/fox-usa.m3u8?md5=dbcbe5ba2cda0235516f4e513fdb99a3&exp=1782348693pEI3FBOVE8cEtb0uSgOCgprrb7FYTph1R5J3AWwM5aCDED4FRAH
 #EXTINF:-1 group-title="Sports",Bein Sports 1 (Arabic)
 https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
-#EXTINF:-1 group-title="Sports",Cola TV Live
+#EXTINF:-1 group-title="Sports",Cola tv live
 https://live05.msdht.app/live/24561735.m3u8
 #EXTINF:-1 group-title="Sports",BeIN Sports Direct
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
@@ -53,7 +51,7 @@ https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1 group-title="Sports",FIFA Live
 https://pub-834eb2e520a04905b6d7b7bb7e84d277.r2.dev/en/index.m3u8
-#EXTINF:-1 group-title="Sports",TSN 4 (2)
+#EXTINF:-1 group-title="Sports",TSN 4
 https://ataide0.nawapholengineering.co.th/tsn.m3u8
 #EXTINF:-1 group-title="Sports",Real Madrid TV
 https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8
