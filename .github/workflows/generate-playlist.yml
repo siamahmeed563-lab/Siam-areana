@@ -1,4 +1,3 @@
-```yaml
 name: Generate playlist.m3u
 
 on:
@@ -22,4 +21,3 @@ jobs:
           git add playlist.m3u
           git diff --cached --quiet || git commit -m "Auto: update playlist.m3u"
           git push
-```
