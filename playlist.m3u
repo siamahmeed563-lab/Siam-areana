@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangladeshi",BIOSCOPE + (FIFA)
-https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8
+https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_3.m3u8
 #EXTINF:-1 group-title="Bangladeshi",Toffe world cup 
 https://sm-monirul.top/tof/live/toffee4/index.m3u8?nocache=1782146598612
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS (HD)
@@ -18,9 +18,9 @@ https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
 #EXTINF:-1 group-title="Sports",SERVER 2 FIFA
 https://tahmidx.cinemoja2.workers.dev/
 #EXTINF:-1 group-title="Sports",korra city
-https://we.smarop.store/spoos1_360/index.m3u8
+https://we.smarop.store/spoos1_720/index.m3u8
 #EXTINF:-1 group-title="Sports",CORRA CiTY 2
-https://we.smarop.store/spoos1.m3u8
+https://we.smarop.store/spoos1_360/index.m3u8
 #EXTINF:-1 group-title="Sports",cctv 5
 https://play1.gzxdby.com/live/783234345958_4547667094.m3u8
 #EXTINF:-1 group-title="Sports",FIFA
