@@ -1,7 +1,7 @@
 {
   "bangladeshi": [
     { "name": "BIOSCOPE + (FIFA)", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_2.m3u8" },
-    { "name": "Toffe world cup ", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/459.m3u8" },
+    { "name": "Toffe world cup ", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://sm-monirul.top/tof/live/toffee4/index.m3u8?nocache=1782146598612" },
     { "name": "T SPORTS (HD)", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://trs1.aynaott.com/tsports/index.m3u8" },
     { "name": "BTV", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8" },
     { "name": "i- Screen ", "icon": "📡", "sub": "🔴 বিনোদন", "url": "https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8" },
@@ -9,12 +9,12 @@
     { "name": "ATN Bangla", "icon": "🎬", "sub": "🔴 বিনোদন", "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8" }
   ],
   "sports": [
-    { "name": "bEIN SPORTS", "icon": "🏆", "url": "https://s3.us-east-2.amazonaws.com/cdna202/live/stream/720p/tracks-v1a1/mono.m3u8" },
+    { "name": "bEIN SPORTS", "icon": "🏆", "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8" },
     { "name": "UNITED SPORTS 2", "icon": "🎥", "url": "https://trs1.aynaott.com/ptvsports/tracks-v1a1/mono.ts.m3u8" },
     { "name": "korra city", "icon": "⚽", "url": "https://am.proect.xyz/wesa1_360/index.m3u8" },
     { "name": "CORRA CiTY 2", "icon": "📡", "url": "https://am.proect.xyz/wesa1_480/index.m3u8" },
     { "name": "cctv 5", "icon": "🇨🇳", "url": "https://play1.gzxdby.com/live/783234345958_4547667094.m3u8" },
-    { "name": "26 FOX", "icon": "🏆", "url": "https://inproviszon.st/fox-usa.m3u8?md5=dbcbe5ba2cda0235516f4e513fdb99a3&exp=1782348693pEI3FBOVE8cEtb0uSgOCgprrb7FYTph1R5J3AWwM5aCDED4FRAH" },
+    { "name": "FIFA", "icon": "🏆", "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8" },
     { "name": "Bein Sports 1 (Arabic)", "icon": "🇸🇦", "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8" },
     { "name": "Cola tv live", "icon": "🎙️", "url": "https://live05.msdht.app/live/24561735.m3u8" },
     { "name": "BeIN Sports Direct", "icon": "🏆", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
