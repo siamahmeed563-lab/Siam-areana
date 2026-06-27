@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangladeshi",BIOSCOPE+ (FIFA)
 https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
-#EXTINF:-1 group-title="Bangladeshi",Toffe world cup 
+#EXTINF:-1 group-title="Bangladeshi",Toffe world cup
 https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/459.m3u8
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS (HD)
 https://tv.emnetbd.com/flussonic/Tsports1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bangladeshi",BTV
 https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangladeshi",i- Screen 
+#EXTINF:-1 group-title="Bangladeshi",i-Screen
 https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8
 #EXTINF:-1 group-title="Bangladeshi",SOMOY TV FIFA
 https://s1.itcnbd.live/1-somoy-tv/tracks-v1a1/mono.m3u8?nocache=1782580870104
@@ -23,8 +23,8 @@ https://za.teworld.online/mooott1_720/index.m3u8
 https://za.teworld.online/mooott1_360/index.m3u8
 #EXTINF:-1 group-title="Sports",cctv 5
 https://play1.gzxdby.com/live/783234345958_4547667094.m3u8
-#EXTINF:-1 group-title="Sports",FIFA
-https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8
+#EXTINF:-1 group-title="Sports",Fußball TV 1
+https://easyproxymiopersonale.dpdns.org/proxy/hls/manifest.m3u8?d=https%3A%2F%2Fvomos.phantemlis.top%2Fpremium263%2Ftracks-v1a1%2Fmono.m3u8%3Fmd5%3D5
 #EXTINF:-1 group-title="Sports",Bein Sports 1 (Arabic)
 https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
 #EXTINF:-1 group-title="Sports",Cola tv live
