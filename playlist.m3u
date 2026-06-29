@@ -2,11 +2,11 @@
 #EXTINF:-1 group-title="Bangladeshi",BIOSCOPE+ (FIFA)
 https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
 #EXTINF:-1 group-title="Bangladeshi",Toffe world cup
-https://toffee-proxy.shahriar-diu64.workers.dev/https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/0/master_2000.m3u8
+https://refer.outflanktv.workers.dev/?ref=https://toffeelive.com/&url=https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1750.m3u8?hdntl=Expires=1782752427~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AVXEwvdkVLnF_1m2Dju5_Xgh1D-kL5L0X8ufa91GQfkVr3DjRjxYfYqbnR4ALyZPp8vwBrwDhOgbfcF3q36IERFRSWsE
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS (HD)
 https://tv.emnetbd.com/flussonic/Tsports1/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangladeshi",BTV
-https://proxy.outflanktv.workers.dev/?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Bangladeshi",SOMOY TV FIFA
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8?nimblesessionid=1778317cc
 #EXTINF:-1 group-title="Bangladeshi",i-Screen
 https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8
 #EXTINF:-1 group-title="Bangladeshi",TAPMAD
@@ -15,20 +15,20 @@ https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/level_1.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Sports",HD FIFA
 https://andro.evrenesoglu57.click/checklist/androstreamliveexn3.m3u8
-#EXTINF:-1 group-title="Sports",UNITED 8
-https://s1.itcnbd.live/united-sports-2/tracks-v1a1/mono.m3u8?nocache=1782584878176
+#EXTINF:-1 group-title="Sports",FOX 26 4k
+https://cdn011.viaplus.site/fox-usa.m3u8
 #EXTINF:-1 group-title="Sports",korra city
-https://ex.moorarts.xyz/diluoe1_720/index.m3u8
+https://am.homom.store/braz1_720/index.m3u8
 #EXTINF:-1 group-title="Sports",CORRA CiTY 2
-https://ex.moorarts.xyz/diluoe1_480/index.m3u8
+https://am.homom.store/braz1_720/index.m3u8
 #EXTINF:-1 group-title="Sports",cctv 5
-https://play1.gzxdby.com/live/783234345958_4547667094.m3u8
+https://play.gzxdby.com/live/183334344568_2547627555_1080p.m3u8
 #EXTINF:-1 group-title="Sports",Fox 26
-https://pub-098b280041274cf5929f5e19cfc8ac67.r2.dev/en1/index.m3u8
+https://cdn011.viaplus.site/fox-usa.m3u8
 #EXTINF:-1 group-title="Sports",Bein Sports 1 (Arabic)
 https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
 #EXTINF:-1 group-title="Sports",TSN
-https://pub-098b280041274cf5929f5e19cfc8ac67.r2.dev/en/index.m3u8
+https://pub-85819be5176c4d29bb0ce67fa13e15ab.r2.dev/en/index.m3u8
 #EXTINF:-1 group-title="Sports",BeIN Sports Direct
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 group-title="Sports",CC TV 5+
@@ -48,7 +48,7 @@ https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 #EXTINF:-1 group-title="Sports",D Sports 2
 https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 #EXTINF:-1 group-title="Sports",MiGU 1 FIFA
-https://play1.gzxdby.com/live/369156323485_4170088738_1080p.m3u8
+https://pullsgp.yyzb456.top/live/stream-698168_lhd.m3u8
 #EXTINF:-1 group-title="Sports",FIFA Live
 https://pub-834eb2e520a04905b6d7b7bb7e84d277.r2.dev/en/index.m3u8
 #EXTINF:-1 group-title="Sports",TSN 4
