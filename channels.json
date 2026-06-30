@@ -2,17 +2,17 @@
   "bangladeshi": [
     { "name": "BIOSCOPE+ (FIFA)", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8" },
     { "name": "Toffe world cup", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://live.666666.zip/migu/1.m3u8" },
-    { "name": "T SPORTS ", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://siamahmeed563-lab.github.io/Siam-areana/ " },
-    { "name": "SOMOY TV FIFA", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8?nimblesessionid=1778317cc" },
+    { "name": "T SPORTS ", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8 " },
+    { "name": "SOMOY TV FIFA", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8?nimblesessionid=10639686" },
     { "name": "i-Screen", "icon": "📡", "sub": "🔴 বিনোদন", "url": "https://tahmidx.cinemoja2.workers.dev/live/FIFA-2026-4/0/master_2000.m3u8" },
     { "name": "TAPMAD", "icon": "🌀", "sub": "🔴 লাইভ", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/level_1.m3u8" },
     { "name": "গোপাল ভাঁড় (live stream)", "icon": "🎬", "sub": "🔴 বিনোদন", "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8" }
   ],
   "sports": [
-    { "name": "Sports-tv-1", "icon": "🏆", "url": "https://1nyaler.streamhostingcdn.top/stream/33/index.m3u8" },
-    { "name": "FOX 26 4k", "icon": "🎥", "url": "https://cdn011.viaplus.site/fox-usa.m3u8" },
-    { "name": "korra city", "icon": "⚽", "url": "https://am.homom.store/braz1_720/index.m3u8" },
-    { "name": "CORRA CiTY 2", "icon": "📡", "url": "https://am.homom.store/braz1_720/index.m3u8" },
+    { "name": "TYP FIFA ", "icon": "🏆", "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8" },
+    { "name": "ITC CANADA", "icon": "🎥", "url": "https://customer-2s5hvw3o3ubwoziv.cloudflarestream.com/d19c1944c7f7b622f97db9b3658e93d9/manifest/stream_tb30200916085559f9dbae46a2c38ee75_r1772807329.m3u8?llhlsHBs=0.9&CMCD=cid%3D%22Cloudflare%20Stream%20Player%20a8846b6%22%2Cmtp%3D8000%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22e6b0fc30-5522-4d49-b123-2b36070690db%22" },
+    { "name": "korra city", "icon": "⚽", "url": "https://cd.coorting.online/homee1_720/index.m3u8" },
+    { "name": "CORRA CiTY 2", "icon": "📡", "url": "https://cd.coorting.online/homee1_360/index.m3u8" },
     { "name": "cctv 5", "icon": "🇨🇳", "url": "https://play.gzxdby.com/live/183334344568_2547627555_1080p.m3u8" },
     { "name": "Fox 26", "icon": "⚽", "url": "https://cdn011.viaplus.site/fox-usa.m3u8" },
     { "name": "Bein Sports 1 (Arabic)", "icon": "🇸🇦", "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8" },
