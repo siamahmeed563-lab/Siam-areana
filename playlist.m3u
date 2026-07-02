@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangladeshi",BIOSCOPE+ (FIFA)
-https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8
+https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.com%2Fout%2Fv1%2F60e7608404004b1186261497b404630b%2Findex_1.m3u8
 #EXTINF:-1 group-title="Bangladeshi",Toffe world cup
 https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/459.m3u8ires=1782987569~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD8E49TKJaioAwFJMUnGas8vyrFS1xrDoQoYIpVkaFGVB9nWJHjO_eeWQ5uRmmQuoCmVj_sgwUqfi-Z-ci98FUD
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS 
@@ -21,10 +21,10 @@ https://live.666666.zip/migu/1.m3u8
 https://me.kooran61.cfd/open2_720/index.m3u8
 #EXTINF:-1 group-title="Sports",CORRA CiTY 360
 https://me.kooran61.cfd/open2_360/index.m3u8
-#EXTINF:-1 group-title="Sports",cctv 5
-https://play.gzxdby.com/live/183334344568_2547627555_1080p.m3u8
-#EXTINF:-1 group-title="Sports",TsN 4
-https://a75.azplay40.me/hls/streama262531/index.m3u8?cst=3dd97923a992035a3ee9efe489cf1553
+#EXTINF:-1 group-title="Sports",FOX 26
+https://andro.evrenesoglu57.click/checklist/androstreamliveexn1.m3u8
+#EXTINF:-1 group-title="Sports",FiFA live
+https://andro.evrenesoglu57.click/checklist/androstreamliveexn3.m3u8
 #EXTINF:-1 group-title="Sports",FUSBAAL TV- 4K
 https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8
 #EXTINF:-1 group-title="Sports",TSN 1
