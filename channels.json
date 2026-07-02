@@ -1,6 +1,6 @@
 {
   "bangladeshi": [
-    { "name": "BIOSCOPE+ (FIFA)", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://d1kep4defqj6r1.cloudfront.net/out/v1/4e21d5a122c549289dd6feab259266e8/index_1.m3u8" },
+    { "name": "BIOSCOPE+ (FIFA)", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.com%2Fout%2Fv1%2F60e7608404004b1186261497b404630b%2Findex_1.m3u8" },
     { "name": "Toffe world cup", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://sports.abdullahroman276.workers.dev/live/roman368/01726686368/459.m3u8ires=1782987569~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AeQsclD8E49TKJaioAwFJMUnGas8vyrFS1xrDoQoYIpVkaFGVB9nWJHjO_eeWQ5uRmmQuoCmVj_sgwUqfi-Z-ci98FUD" },
     { "name": "T SPORTS ", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://hd2.ctghub.com/T-Sports/index.m3u8 " },
     { "name": "SOMOY TV FIFA", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
@@ -13,8 +13,8 @@
     { "name": "ITC CANADA", "icon": "🎥", "url": "https://live.666666.zip/migu/1.m3u8" },
     { "name": "korra city 720", "icon": "⚽", "url": "https://me.kooran61.cfd/open2_720/index.m3u8" },
     { "name": "CORRA CiTY 360", "icon": "📡", "url": "https://me.kooran61.cfd/open2_360/index.m3u8" },
-    { "name": "cctv 5", "icon": "🇨🇳", "url": "https://play.gzxdby.com/live/183334344568_2547627555_1080p.m3u8" },
-    { "name": "TsN 4", "icon": "⚽", "url": "https://a75.azplay40.me/hls/streama262531/index.m3u8?cst=3dd97923a992035a3ee9efe489cf1553" },
+    { "name": "FOX 26", "icon": "🇨🇳", "url": "https://andro.evrenesoglu57.click/checklist/androstreamliveexn1.m3u8" },
+    { "name": "FiFA live", "icon": "⚽", "url": "https://andro.evrenesoglu57.click/checklist/androstreamliveexn3.m3u8" },
     { "name": "FUSBAAL TV- 4K", "icon": "🇸🇦", "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8" },
     { "name": "TSN 1", "icon": "🎙️", "url": "https://pub-85819be5176c4d29bb0ce67fa13e15ab.r2.dev/en/index.m3u8" },
     { "name": "BeIN Sports Direct", "icon": "🏆", "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8" },
