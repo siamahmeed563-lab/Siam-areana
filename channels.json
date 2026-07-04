@@ -6,7 +6,7 @@
     { "name": "SOMOY TV FIFA", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
     { "name": "i-Screen", "icon": "📡", "sub": "🔴 বিনোদন", "url": "https://cricxtv.fun/isceen.php?file=https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/tc_sg_1_1080p.m3u8" },
     { "name": "PTV", "icon": "🌀", "sub": "🔴 লাইভ", "url": "https://lstv-web.pages.dev/api/proxy?url=https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8" },
-    { "name": "TAPMAD", "icon": "🎬", "sub": "🔴 বিনোদন", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/level_1.m3u8MzkuNTA6ODA5NS9idHYvdHJhY2tzLXYxYTEvbW9uby5tM3U4&ext=.m3u8" }
+    { "name": "TAPMAD", "icon": "🎬", "sub": "🔴 বিনোদন", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/level_1.m3u8" }
   ],
   "sports": [
     { "name": "SOCO LIVE FIFA ", "icon": "🏆", "url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198" },
