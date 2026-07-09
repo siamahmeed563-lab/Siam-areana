@@ -1,7 +1,7 @@
 {
   "bangladeshi": [
     { "name": "BIOSCOPE+(FIFA)", "icon": "📡", "sub": "🔴 ফ্রি · সারা দেশে", "url": "https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.com%2Fout%2Fv1%2F60e7608404004b1186261497b404630b%2Findex_2.m3u8" },
-    { "name": "TAPMAD", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/level_1.m3u8" },
+    { "name": "BTV", "icon": "📰", "sub": "🔴 লাইভ", "url": "https://biostartvworld.pages.dev/api/btv.m3u8?key=aHR0cHM6Ly90di5iZXlvbmR0YXhjb25zdWx0YW50cy5jb20vYXBpL3Byb3h5P3VybD1odHRwOi8vMTAzLjE2NS45My4zMTo4MDk1L2J0di90cmFja3MtdjFhMS9tb25vLm0zdTg" },
     { "name": "T SPORTS ", "icon": "🏆", "sub": "🔴 লাইভ", "url": "https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8 " },
     { "name": "SOMOY TV FIFA", "icon": "🌊", "sub": "🔴 সংবাদ", "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8" },
     { "name": "SOCO WROLD CUP", "icon": "📡", "sub": "🔴 বিনোদন", "url": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783366103-0-0-22529c3f65969c7cdd810209a64927e6" },
