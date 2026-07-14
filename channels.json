@@ -7,10 +7,10 @@
       "url": "https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.com%2Fout%2Fv1%2F60e7608404004b1186261497b404630b%2Findex_2.m3u8"
     },
     {
-      "name": "BTV",
+      "name": "FRA VS ESP",
       "icon": "📰",
       "sub": "🔴 লাইভ",
-      "url": "https://biostartvworld.pages.dev/api/btv.m3u8?key=aHR0cHM6Ly90di5iZXlvbmR0YXhjb25zdWx0YW50cy5jb20vYXBpL3Byb3h5P3VybD1odHRwOi8vMTAzLjE2NS45My4zMTo4MDk1L2J0di90cmFja3MtdjFhMS9tb25vLm0zdTg"
+      "url": "https://ottstream4.primetel.com.cy/streaming-web/SigmaLive/playlist_1000.m3u8k1L2J0di90cmFja3MtdjFhMS9tb25vLm0zdTg"
     },
     {
       "name": "T SPORTS ",
@@ -75,9 +75,9 @@
       "url": "https://cp11.adabmedia.com/hls2/sport.m3u8?nocache=1782057214460&nocache=1784053099439"
     },
     {
-      "name": "corra city 360",
+      "name": "2DF FiFA",
       "icon": "🇸🇦",
-      "url": "https://cu.freshfin.site/mercaz1_360/index.m3u8"
+      "url": "https://s6.hopslan.com/zdfX11/tracks-v1a1/mono.m3u8"
     },
     {
       "name": " BEIN ARABIC ",
@@ -90,9 +90,9 @@
       "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8"
     },
     {
-      "name": "TPV SPORTS",
+      "name": "Qazaqastan tv",
       "icon": "🇦🇷",
-      "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8"
+      "url": "https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_MjE7M10AtBKsWN3CHzhzNBgiG7LkULPx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8"
     },
     {
       "name": "CORAX 90",
