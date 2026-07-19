@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Bangladeshi",BIOSCOPE+(FIFA)
-https://hls.diptom3ow.workers.dev/r/https%3A%2F%2Ffifa-stream-01.bioscopelive.com%2Fout%2Fv1%2F60e7608404004b1186261497b404630b%2Findex_2.m3u8
+#EXTINF:-1 group-title="Bangladeshi",BTV
+https://btv.arroman99.workers.dev/playlist.m3u8ndex_2.m3u8
 #EXTINF:-1 group-title="Bangladeshi",Argentina VS Espen
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_6.m3u8
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS 
