@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangladeshi",BTV
 https://btv.arroman99.workers.dev/playlist.m3u8ndex_2.m3u8
-#EXTINF:-1 group-title="Bangladeshi",PTV
-https://tvsen3.aynaott.com/Sports1/mono.m3u8
+#EXTINF:-1 group-title="Bangladeshi",FANCODE
+https://m3u8-proxy-v1.jahinalamshamim.workers.dev/proxy?url=https://bd-mc-pdlive.fancode.com/mumbai/4247438_english_hls_409d14a5796247_1ta-di_h264/1080p.m3u8
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS 
 https://iptv.aethelcode.workers.dev/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8 
 #EXTINF:-1 group-title="Bangladeshi",SOMOY TV FIFA
