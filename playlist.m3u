@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="Bangladeshi",BTV
-https://btv.arroman99.workers.dev/playlist.m3u8ndex_2.m3u8
+https://proxy3.hridoytvgate.workers.dev/link-copy-kore-lav-nai=expire43738831219634/btvsangsad.m3u8
 #EXTINF:-1 group-title="Bangladeshi",FANCODE
 https://m3u8-proxy-v1.jahinalamshamim.workers.dev/proxy?url=https://bd-mc-pdlive.fancode.com/mumbai/4247438_english_hls_409d14a5796247_1ta-di_h264/1080p.m3u8
 #EXTINF:-1 group-title="Bangladeshi",T SPORTS 
@@ -9,10 +9,10 @@ https://iptv.aethelcode.workers.dev/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 #EXTINF:-1 group-title="Bangladeshi",CC TV 5 WROLD CUP
 https://live01-cn-ali.bvjicd.com/live/79361366.m3u8?nocache=1784052953102
-#EXTINF:-1 group-title="Bangladeshi",BOISCOPE +
-https://live01-cn-ali.bvjicd.com/live/79361366.m3u8?nocache=1784487457014
-#EXTINF:-1 group-title="Bangladeshi", ARG vs esp
-https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_3.m3u8
+#EXTINF:-1 group-title="Bangladeshi",Channel 1
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=2202800.m3u8
+#EXTINF:-1 group-title="Bangladeshi", Ekattor tv
+https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8
 #EXTINF:-1 group-title="Sports",CAZE TV FIFA
 https://andro.evrenesoglu57.click/checklist/androstreamliveexn6.m3u8
 #EXTINF:-1 group-title="Sports",S Sports
