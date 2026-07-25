@@ -1,0 +1,186 @@
+{
+  "Entertainment": [],
+  "Indian Bangla": [],
+  "Islamic": [],
+  "Documentary": [],
+  "Kids": [],
+  "Movie": [],
+  "Music": [],
+  "Other": [
+    {
+      "name": "BTV",
+      "url": "https://proxy3.hridoytvgate.workers.dev/link-copy-kore-lav-nai=expire43738831219634/btvsangsad.m3u8",
+      "logo": "Jatiya Songsod Logo PNG Vector (AI) Free Download https://share.google/XmCtF3R8H0TzHA30t"
+    },
+    {
+      "name": "FANCODE",
+      "url": "https://m3u8-proxy-v1.jahinalamshamim.workers.dev/proxy?url=https://bd-mc-pdlive.fancode.com/mumbai/4247438_english_hls_409d14a5796247_1ta-di_h264/1080p.m3u8",
+      "logo": "logos/fancode.png"
+    },
+    {
+      "name": "T SPORTS ",
+      "url": "https://iptv.aethelcode.workers.dev/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8 ",
+      "logo": "https://images.seeklogo.com/logo-png/64/1/t-sports-logo-png_seeklogo-640172.png"
+    },
+    {
+      "name": "SOMOY TV FIFA",
+      "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+      "logo": "https://images.seeklogo.com/logo-png/53/1/somoy-tv-logo-png_seeklogo-536972.png"
+    },
+    {
+      "name": "Ntv",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716-audio_113462_eng=113200-video=2202800.m3u8",
+      "logo": "https://images.seeklogo.com/logo-png/39/1/ntv-channel-logo-png_seeklogo-396286.png"
+    },
+    {
+      "name": "Channel 1",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=2202800.m3u8",
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Channel_1_Logo_Bangladesh.png"
+    },
+    {
+      "name": " Ekattor tv",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
+      "logo": "https://cdn.brandfetch.io/idQsBNyhmW/w/500/h/304/theme/light/logo.png?c=1dxbfHSJFAPEGdCLU4o5B"
+    },
+    {
+      "name": "CAZE TV FIFA",
+      "url": "https://andro.evrenesoglu57.click/checklist/androstreamliveexn6.m3u8",
+      "logo": "logos/caze-tv-fifa.png"
+    },
+    {
+      "name": "S Sports",
+      "url": "https://ottstream4.primetel.com.cy/streaming-web/SigmaLive/playlist_1000.m3u8",
+      "logo": "logos/s-sports.png"
+    },
+    {
+      "name": "COLA Tv FiFa",
+      "url": "https://live05.miekgo.app/live/78905744.m3u8",
+      "logo": "logos/cola-tv-fifa.png"
+    },
+    {
+      "name": "soco 2",
+      "url": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783440983-0-0-",
+      "logo": "logos/soco-2.png"
+    },
+    {
+      "name": "TRT 1",
+      "url": "https://andro.evrenesoglu57.click/checklist/androstreamlivetrt1.m3u8",
+      "logo": "logos/trt-1.png"
+    },
+    {
+      "name": "BEin 1 max",
+      "url": "https://cp11.adabmedia.com/hls2/sport.m3u8?nocache=1782057214460&nocache=1784053099439",
+      "logo": "logos/bein-1-max.png"
+    },
+    {
+      "name": "2DF FiFA",
+      "url": "https://s6.hopslan.com/zdfX11/tracks-v1a1/mono.m3u8",
+      "logo": "logos/2df-fifa.png"
+    },
+    {
+      "name": " BEIN ARABIC ",
+      "url": "https://andro.evrenesoglu57.click/checklist/androstreamliveexn4.m3u8",
+      "logo": "logos/bein-arabic.png"
+    },
+    {
+      "name": "BeIN Sports Direct",
+      "url": "https://edge22.776740.ir.cdn.ir/hls2/sport.m3u8",
+      "logo": "logos/bein-sports-direct.png"
+    },
+    {
+      "name": "Qazaqastan tv",
+      "url": "https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_MjE7M10AtBKsWN3CHzhzNBgiG7LkULPx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8",
+      "logo": "logos/qazaqastan-tv.png"
+    },
+    {
+      "name": "CORAX 90",
+      "url": "https://1.simoplay.com/my-hls/h9asfma10d5.m3u8",
+      "logo": "logos/corax-90.png"
+    },
+    {
+      "name": "CHAINA FiFA",
+      "url": "https://a0504dae9c72cdb02b00ddedf6df4973.livehwc4.com/pullsgp.yyzb456.top/live/stream-259579_lhd.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=38f4b38e7c5842a7628642ec13ca5767",
+      "logo": "logos/chaina-fifa.png"
+    },
+    {
+      "name": "Caze TV",
+      "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8",
+      "logo": "logos/caze-tv.png"
+    },
+    {
+      "name": "Dazn Direct",
+      "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+      "logo": "logos/dazn-direct.png"
+    },
+    {
+      "name": "ARG VS Egypt ",
+      "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8",
+      "logo": "logos/arg-vs-egypt.png"
+    },
+    {
+      "name": "P Sports",
+      "url": "https://edge22.776740.ir.cdn.ir/hls2/persiana.m3u8",
+      "logo": "logos/p-sports.png"
+    },
+    {
+      "name": " d Sports 2",
+      "url": "https://edge22.776740.ir.cdn.ir/hls2/persiana.m3u8",
+      "logo": "logos/d-sports-2.png"
+    },
+    {
+      "name": "MiGU 1 FIFA",
+      "url": "https://pullsgp.yyzb456.top/live/stream-698168_lhd.m3u8",
+      "logo": "logos/migu-1-fifa.png"
+    },
+    {
+      "name": "TSN 4",
+      "url": "https://ataide0.nawapholengineering.co.th/tsn.m3u8",
+      "logo": "logos/tsn-4.png"
+    },
+    {
+      "name": "Real Madrid TV",
+      "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
+      "logo": "logos/real-madrid-tv.png"
+    },
+    {
+      "name": "LALIGA Inside",
+      "url": "https://d3bb58xoj568xi.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-don7i7nmbho0q/a5faafd1-5d98-4fe1-996c-c33206fd3324/3.m3u8",
+      "logo": "logos/laliga-inside.png"
+    },
+    {
+      "name": "FIFA +",
+      "url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/bf2e2c08-6355-4c5a-8d38-e6f4470a558d/0.m3u8",
+      "logo": "logos/fifa.png"
+    },
+    {
+      "name": "WILLOW SPORTS",
+      "url": "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+      "logo": "logos/willow-sports.png"
+    },
+    {
+      "name": "Win Sports",
+      "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+      "logo": "logos/win-sports.png"
+    },
+    {
+      "name": "Telemendu",
+      "url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
+      "logo": "logos/telemendu.png"
+    },
+    {
+      "name": "TUDN Sports",
+      "url": "https://1nyaler.streamhostingcdn.top/stream/52/index.m3u8",
+      "logo": "logos/tudn-sports.png"
+    },
+    {
+      "name": "SOCO Live",
+      "url": "https://pull.niues.live/live/stream-9912108_lhd.m3u8?auth_key=1782234982-0-0-2455aafc2b9f6b9d2cd3228dabb3d198",
+      "logo": "logos/soco-live.png"
+    },
+    {
+      "name": "FIFA 3",
+      "url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/e72e3606-f8f9-4f8e-96e4-355ec0170126/2.m3u8",
+      "logo": "logos/fifa-3.png"
+    }
+  ]
+}
