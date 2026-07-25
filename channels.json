@@ -13,7 +13,7 @@
     {
       "name": "T SPORTS ",
       "url": "https://iptv.aethelcode.workers.dev/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8 ",
-      "logo": "https://seeklogo.com/vector-logo/640172/t-sports"
+      "logo": "https://images.seeklogo.com/logo-png/64/1/t-sports-logo-png_seeklogo-640172.png"
     },
     {
       "name": "SOMOY TV FIFA",
@@ -21,19 +21,19 @@
       "logo": "https://images.seeklogo.com/logo-png/53/1/somoy-tv-logo-png_seeklogo-536972.png"
     },
     {
-      "name": "CC TV 5 WROLD CUP",
-      "url": "https://live01-cn-ali.bvjicd.com/live/79361366.m3u8?nocache=1784052953102",
-      "logo": "logos/cc-tv-5-wrold-cup.png"
+      "name": "Ntv",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/1716-audio_113462_eng=113200-video=2202800.m3u8",
+      "logo": "https://images.seeklogo.com/logo-png/39/1/ntv-channel-logo-png_seeklogo-396286.png"
     },
     {
       "name": "Channel 1",
       "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=2202800.m3u8",
-      "logo": "Channel_1_Logo_Bangladesh.png (2048×2048) https://share.google/hXf6vbUSC1t8HmA9O"
+      "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Channel_1_Logo_Bangladesh.png"
     },
     {
       "name": " Ekattor tv",
       "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/1705-audio_113352_eng=113200-video=2202800.m3u8",
-      "logo": "Ekattor.Tv Logo & Brand Assets (SVG, PNG and vector) - Brandfetch https://share.google/jLHWMJJmwDfOwtx0x"
+      "logo": "https://cdn.brandfetch.io/idQsBNyhmW/w/500/h/304/theme/light/logo.png?c=1dxbfHSJFAPEGdCLU4o5B"
     }
   ],
   "sports": [
