@@ -2,23 +2,23 @@
   "All": [],
   "Bangladesh": [
     {
-      "name": "BTV",
-      "url": "https://proxy3.hridoytvgate.workers.dev/link-copy-kore-lav-nai=expire43738831219634/btvsangsad.m3u8",
+      "name": "BTV Songsod",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
       "logo": "Jatiya Songsod Logo PNG Vector (AI) Free Download https://share.google/XmCtF3R8H0TzHA30t"
     },
     {
-      "name": "FANCODE",
-      "url": "https://m3u8-proxy-v1.jahinalamshamim.workers.dev/proxy?url=https://bd-mc-pdlive.fancode.com/mumbai/4247438_english_hls_409d14a5796247_1ta-di_h264/1080p.m3u8",
+      "name": "Masranga HD",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8-di_h264/1080p.m3u8",
       "logo": "logos/fancode.png"
     },
     {
       "name": "T SPORTS ",
-      "url": "https://iptv.aethelcode.workers.dev/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8 ",
+      "url": "https://iptv.aethelcode.workemasrs.dev/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8 ",
       "logo": "https://images.seeklogo.com/logo-png/64/1/t-sports-logo-png_seeklogo-640172.png"
     },
     {
-      "name": "SOMOY TV FIFA",
-      "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+      "name": "SOMOY TV ",
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
       "logo": "https://images.seeklogo.com/logo-png/53/1/somoy-tv-logo-png_seeklogo-536972.png"
     },
     {
@@ -37,119 +37,119 @@
       "logo": "https://cdn.brandfetch.io/idQsBNyhmW/w/500/h/304/theme/light/logo.png?c=1dxbfHSJFAPEGdCLU4o5B"
     },
     {
-      "name": "",
+      "name": "Jamuna tv",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Channel 24",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "DBC News",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Independent Tv",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "News 24",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "ATN Bangla",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "ATN News",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Banglavision",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u"
     },
     {
-      "name": "",
+      "name": "Depto tv",
       "logo": "",
-      "url": ""
+      "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Ntv",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Ntv UK",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Channel i",
       "logo": "",
-      "url": ""
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Channel S",
       "logo": "",
-      "url": ""
+      "url": "https://app.ncare.live/live-orgin/channels.stream/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "Channel S UK",
       "logo": "",
-      "url": ""
+      "url": "https://app.ncare.live/live-orgin/channels.stream/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "ME TV",
       "logo": "",
-      "url": ""
+      "url": "https://iptvbd.live/metv1080/10j80.m3u8"
     },
     {
-      "name": "",
+      "name": "Jago news 24",
       "logo": "",
-      "url": ""
+      "url": "https://app.ncare.live/live-orgin/jagonews24.stream/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "Rajdhani Tv",
       "logo": "",
-      "url": ""
+      "url": "https://stream.shariarsuvo.com/hls6/rajdhaniweb.m3u8"
     },
     {
-      "name": "",
+      "name": "24 gonta (ind)",
       "logo": "",
-      "url": ""
+      "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24ghanta/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f386957b-dfda-4779-8dd8-f525e37d92ab/main.m3u8"
     },
     {
-      "name": "",
+      "name": "News 18 bangla (ind)",
       "logo": "",
-      "url": ""
+      "url": "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "Kolkata news",
       "logo": "",
-      "url": ""
+      "url": "https://akdnetwork.co.in/live/cnnew/index.m3u8"
     },
     {
-      "name": "",
+      "name": "TV 9",
       "logo": "",
-      "url": ""
+      "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "ADP Ananda",
       "logo": "",
-      "url": ""
+      "url": "https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "Time Television ",
       "logo": "",
-      "url": ""
+      "url": "https://app.ncare.live/live-orgin/timetvusa.stream/playlist.m3u8"
     },
     {
       "name": "",
@@ -306,39 +306,39 @@
   ],
   "Kids": [
     {
-      "name": "",
+      "name": "SRk tv",
       "logo": "",
-      "url": ""
+      "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "Khusbo bangla",
       "logo": "",
-      "url": ""
+      "url": "https://cdn-4.pishow.tv/live/1473/master.m3u8"
     },
     {
-      "name": "",
+      "name": "PBC kids",
       "logo": "",
-      "url": ""
+      "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8"
     },
     {
-      "name": "",
+      "name": "Cartoon Network",
       "logo": "",
-      "url": ""
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8"
     },
     {
-      "name": "",
+      "name": "TOM & JERRRY",
       "logo": "",
-      "url": ""
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "GOPAL BHAR",
       "logo": "",
-      "url": ""
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8"
     },
     {
-      "name": "",
+      "name": "MOTU PATLU",
       "logo": "",
-      "url": ""
+      "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8"
     },
     {
       "name": "",
@@ -383,19 +383,19 @@
   ],
   "Islamic": [
     {
-      "name": "",
+      "name": "peace tv Bangla",
       "logo": "",
-      "url": ""
+      "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8"
     },
     {
-      "name": "",
+      "name": "peace tv English",
       "logo": "",
-      "url": ""
+      "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
     },
     {
-      "name": "",
+      "name": "Saudi Quran",
       "logo": "",
-      "url": ""
+      "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8"
     },
     {
       "name": "",
@@ -791,19 +791,19 @@
   ],
   "Documentary": [
     {
-      "name": "",
+      "name": "wild earth",
       "logo": "",
-      "url": ""
+      "url": "https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "BBC Earth",
       "logo": "",
-      "url": ""
+      "url": "https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8"
     },
     {
-      "name": "",
+      "name": "DW",
       "logo": "",
-      "url": ""
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
     },
     {
       "name": "",
