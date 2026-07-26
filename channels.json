@@ -2,8 +2,8 @@
   "All": [],
   "Bangladesh": [
     {
-      "name": "BTV Songsod",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+      "name": "BTV NEWS",
+      "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/btvbd-office-sg.stream/tracks-v1a1/mono.m3u8",
       "logo": "Jatiya Songsod Logo PNG Vector (AI) Free Download https://share.google/XmCtF3R8H0TzHA30t"
     },
     {
@@ -62,9 +62,9 @@
       "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8"
     },
     {
-      "name": "ATN Bangla",
+      "name": "BTV world",
       "logo": "",
-      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8"
+      "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1725/output/1725-audio_113552_eng=113200-video=2202800.m3u8"
     },
     {
       "name": "ATN News",
@@ -122,14 +122,14 @@
       "url": "https://stream.shariarsuvo.com/hls6/rajdhaniweb.m3u8"
     },
     {
-      "name": "24 gonta (ind)",
+      "name": "Akhon tv",
       "logo": "",
-      "url": "https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24ghanta/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f386957b-dfda-4779-8dd8-f525e37d92ab/main.m3u8"
+      "url": "https://stream.ottplus.live/live/ekhon_tv_abr/live/ekhon_tv_hd_720/chunks.m3u8"
     },
     {
-      "name": "News 18 bangla (ind)",
+      "name": "Nagorik tv",
       "logo": "",
-      "url": "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8"
+      "url": "https://kamrul-mc-ar-baki-bc-toder-baper-stream-monekore-user-kor.nurmd2006-official.workers.dev/Nagorik_TV/tracks-v1a1/mono.m3u8"
     },
     {
       "name": "Kolkata news",
@@ -460,24 +460,24 @@
   ],
   "Movie": [
     {
-      "name": "",
+      "name": "G Series Bangla",
       "logo": "",
-      "url": ""
+      "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8"
     },
     {
-      "name": "",
+      "name": "Goldmines",
       "logo": "",
-      "url": ""
+      "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8"
     },
     {
-      "name": "",
+      "name": "goldmines 2",
       "logo": "",
-      "url": ""
+      "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8"
     },
     {
-      "name": "",
+      "name": "goldmines movies",
       "logo": "",
-      "url": ""
+      "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8"
     },
     {
       "name": "",
