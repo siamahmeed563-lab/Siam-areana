@@ -206,7 +206,7 @@
     {
       "name": "Enter 10 bangla",
       "logo": "",
-      "url": "https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_1.m3u8"
+      "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8"
     },
     {
       "name": "sony আট",
@@ -216,7 +216,7 @@
     {
       "name": "Ze tv",
       "logo": "",
-      "url": "https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index_1.m3u8"
+      "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8"
     },
     {
       "name": "Zee one",
@@ -244,9 +244,9 @@
       "url": "https://cdn-4.pishow.tv/live/969/969_1.m3u8"
     },
     {
-      "name": "",
+      "name": "colors hd",
       "logo": "",
-      "url": ""
+      "url": "http://10.30.30.30:8088/COLORS.HD/tracks-v1a1/mono.m3u8?token=f4c2672bd6aca0d00968e5aacc1cdadbd6dc9291-122befa6669907f293ed9987a8ed97ce-1785152219-1785141419"
     },
     {
       "name": "",
@@ -336,8 +336,8 @@
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8"
     },
     {
-      "name": "MOTU PATLU",
-      "logo": "",
+      "name": "MOTU PATLU 24/7",
+      "logo": "https://upload.wikimedia.org/wikipedia/as/6/67/Gopal_Bhar_animated_TV_series_title_card.jpeg",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8"
     },
     {
