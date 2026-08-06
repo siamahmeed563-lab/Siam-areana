@@ -98,7 +98,7 @@ https://cdn-4.pishow.tv/live/969/969_1.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/83/Colors_Bangla_HD_(2016-present).png " group-title="Indian Bangla",colors hd
 http://10.30.30.30:8088/COLORS.HD/tracks-v1a1/mono.m3u8?token=f4c2672bd6aca0d00968e5aacc1cdadbd6dc9291-122befa6669907f293ed9987a8ed97ce-1785152219-1785141419
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/shamimpipon/ROAR/main/Star Jalsha.png " group-title="Indian Bangla",star jalsha
-https://aboxbdix.ryvox-tb-8ae.workers.dev/live/STAR-JALSHA.m3u8?token=7e072aefe3e394b71d0456dd0dbaea02&time=1786003236&link_index=0 
+https://aboxbdix.ryvox-tb-8ae.workers.dev/live/STAR-JALSHA.m3u8?token=7e072aefe3e394b71d0456dd0dbaea02&time=1786003236&link_index=0
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/69/Jalsha_Movies_HD_alt.png " group-title="Indian Bangla",Jalsha movies SD
 https://live.bdixbd.net/api/proxy/stream.m3u8?url=http%3A%2F%2F103.151.61.12%2FJalsha_Movie%2Ftracks-v1a1%2Fmono.m3u8%3Ftoken%3Di7bZaZWaFrSIE0 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/69/Jalsha_Movies_HD_alt.png " group-title="Indian Bangla",Jalsha movies HD
