@@ -1,25 +1,24 @@
 import json
 
-with open('channels.json', encoding='utf-8') as f:
+with open("channels.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
-lines = ['#EXTM3U']
+lines = ["#EXTM3U"]
 
-for ch in data.get('bangladeshi', []):
-    name = ch.get('name', '')
-    url = ch.get('url', '')
-    if url:
-        lines.append(f'#EXTINF:-1 group-title="Bangladeshi",{name}')
-        lines.append(url)
+for group, channels in data.items():
+    if isinstance(channels, list):
+        for ch in channels:
+            name = ch.get("name", "")
+            url = ch.get("url", "")
+            logo = ch.get("logo", "")
 
-for ch in data.get('sports', []):
-    name = ch.get('name', '')
-    url = ch.get('url', '')
-    if url:
-        lines.append(f'#EXTINF:-1 group-title="Sports",{name}')
-        lines.append(url)
+            if url:
+                lines.append(
+                    f'#EXTINF:-1 tvg-logo="{logo}" group-title="{group}",{name}'
+                )
+                lines.append(url)
 
-with open('playlist.m3u', 'w', encoding='utf-8') as f:
-    f.write('\n'.join(lines) + '\n')
+with open("playlist.m3u", "w", encoding="utf-8") as f:
+    f.write("\n".join(lines))
 
 print("playlist.m3u generated successfully!")
