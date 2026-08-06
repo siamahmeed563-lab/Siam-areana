@@ -5,19 +5,28 @@ on:
     paths:
       - 'channels.json'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - name: Generate playlist.m3u from channels.json
-        run: python3 generate_playlist.py
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-      - name: Commit and push playlist.m3u
+      - name: Generate playlist.m3u
+        run: python generate_playlist.py
+
+      - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add playlist.m3u
-          git diff --cached --quiet || git commit -m "Auto: update playlist.m3u"
+          git diff --cached --quiet || git commit -m "Auto update playlist.m3u"
           git push
