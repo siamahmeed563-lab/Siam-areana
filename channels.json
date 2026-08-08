@@ -460,9 +460,9 @@
   ],
   "Movie": [
     {
-      "name": "G Series Bangla",
+      "name": "STAR MOVIES HD",
       "logo": "",
-      "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8"
+      "url": "http://nexskyview.com/live/Marius/Marius123/1708028.ts"
     },
     {
       "name": "Goldmines",
@@ -515,9 +515,9 @@
       "url": "https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1763"
     },
     {
-      "name": "bangal +",
-      "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/9/9a/Bangla+_HD.png ",
-      "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8 "
+      "name": "HBO MAX HD",
+      "logo": " ",
+      "url": "http://dreamvue.xyz/live/Dorsey/Dorsey/271094.ts"
     },
     {
       "name": "star plus hd",
