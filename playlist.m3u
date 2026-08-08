@@ -179,8 +179,8 @@ https://app.ncare.live/live-orgin/deentv.stream/live-orgin/deentv.stream/chunks.
 https://media2.streambrothers.com:1936/8122/8122/chunklist_w960826305.m3u8 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEik_VqjLRZJSi_Kkwq9kIq12pprZhHMNsRkdsc5XkvNb5CBZu_mh2h2dxlQW14aRguNQlJ90cNmgqN2zc8wmOQZz0jdbd-WSDR2_jvZjQWzLngU6BIkix_ukJEnih9iBM7nozxDtPiohYzQ0JSFFteojq8I4E53sDbsEmlmaDk7eicfRtTwwycBYRHK/s600/Nur_20251103_202848_0000.png " group-title="Islamic",Peace tv urdu
 https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/tracks-v1a1/mono.m3u8?sid=IaiMcnbg3kiVnJ2c3BYKtw&bvr_flags=1&bvr_ch=PeaceTvUrdu&bvr_bw=5990000 
-#EXTINF:-1 tvg-logo="" group-title="Movie",G Series Bangla
-https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Movie",STAR MOVIES HD
+http://nexskyview.com/live/Marius/Marius123/1708028.ts
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJlZ5eY8iUll1OFYBn_jUNjVBB5UMLHfLV-ZYfhSnOmrYWGHJHt9iwsgKI5lQ4aoXVj_2hIXCQnZClXBGZhgKvgXmrPykyFDdPP_J34bvZTXnyVZk-M1V1vPIo2E_RpgJXS_qJNeDufBLedvF4EZRXhXUqocmZTg-e7FGvSCarKQ9IK6ufwbedqSU88g/s600/Nur_20251219_134746_0000.png " group-title="Movie",Goldmines
 https://cdn-2.pishow.tv/live/1459/master.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJlZ5eY8iUll1OFYBn_jUNjVBB5UMLHfLV-ZYfhSnOmrYWGHJHt9iwsgKI5lQ4aoXVj_2hIXCQnZClXBGZhgKvgXmrPykyFDdPP_J34bvZTXnyVZk-M1V1vPIo2E_RpgJXS_qJNeDufBLedvF4EZRXhXUqocmZTg-e7FGvSCarKQ9IK6ufwbedqSU88g/s600/Nur_20251219_134746_0000.png " group-title="Movie",goldmines 2
@@ -201,8 +201,8 @@ http://babl21.xyz/live/0572512450/shishir450/97588.ts
 https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1450
 #EXTINF:-1 tvg-logo="" group-title="Movie",colors cineplex boolywod
 https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1763
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/9/9a/Bangla+_HD.png " group-title="Movie",bangal +
-https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8 
+#EXTINF:-1 tvg-logo=" " group-title="Movie",HBO MAX HD
+http://dreamvue.xyz/live/Dorsey/Dorsey/271094.ts
 #EXTINF:-1 tvg-logo=" " group-title="Movie",star plus hd
 http://babl21.xyz/live/0572512450/shishir450/97584.ts 
 #EXTINF:-1 tvg-logo=" " group-title="Movie",colours bangla cinema
