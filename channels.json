@@ -461,7 +461,7 @@
   "Movie": [
     {
       "name": "STAR MOVIES HD",
-      "logo": "",
+      "logo": "https://w7.pngwing.com/pngs/648/291/png-transparent-star-movies-television-channel-fox-movies-logo-star-movie-television-text-film-thumbnail.png",
       "url": "http://nexskyview.com/live/Marius/Marius123/1708028.ts"
     },
     {
@@ -481,7 +481,7 @@
     },
     {
       "name": "sony max 2",
-      "logo": " ",
+      "logo": "https://logos.fandom.com/wiki/Sony_Max_2?file=Sony_Max_2.png",
       "url": "https://jio.joinus-apiworker.workers.dev/live.m3u8?id=4835"
     },
     {
@@ -491,47 +491,47 @@
     },
     {
       "name": "star gold hd",
-      "logo": " ",
+      "logo": "https://w7.pngwing.com/pngs/742/349/png-transparent-star-gold-star-yellow-star-illustration-angle-triangle-symmetry.png",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97583.ts"
     },
     {
       "name": "sonymax hd",
-      "logo": "",
+      "logo": "https://w7.pngwing.com/pngs/583/993/png-transparent-set-max-sony-s-networks-india-sony-entertainment-television-television-channel-indian-music-television-angle-text.png",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97569.ts"
     },
     {
       "name": "sony sab",
-      "logo": "",
+      "logo": "https://w7.pngwing.com/pngs/969/120/png-transparent-sony-sab-logo-sony-sab-logo-in-orange-and-black.png",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97588.ts"
     },
     {
       "name": "Colors cineplex superhit",
-      "logo": "",
+      "logo": "https://logos.fandom.com/wiki/Colors_Cineplex_Superhits?file=Colors_Cineplex_Superhits.png",
       "url": "https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1450"
     },
     {
       "name": "colors cineplex boolywod",
-      "logo": "",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Colors-Cineplex-Bollywood.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20260606150449",
       "url": "https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1763"
     },
     {
       "name": "HBO MAX HD",
-      "logo": " ",
+      "logo": "https://w7.pngwing.com/pngs/923/541/png-transparent-hbo-max-hd-logo.png",
       "url": "http://dreamvue.xyz/live/Dorsey/Dorsey/271094.ts"
     },
     {
       "name": "star plus hd",
-      "logo": " ",
+      "logo": "https://w7.pngwing.com/pngs/591/520/png-transparent-star-plus-star-india-television-show-television-channel-net.png",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97584.ts "
     },
     {
       "name": "colours bangla cinema",
-      "logo": " ",
+      "logo": "https://w7.pngwing.com/pngs/60/192/png-transparent-colors-bangla-bengali-television-show-television-channel-nepalis-purple-television-text-thumbnail.png",
       "url": "https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1657 "
     },
     {
       "name": "sony max 1",
-      "logo": " ",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/0/04/SM1_logo.jpg/revision/latest/scale-to-width-down/250?cb=20250510023727",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97599.ts "
     }
   ],
