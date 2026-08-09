@@ -214,33 +214,33 @@
       "url": "https://stream.ottplus.bd/live/sony_aath_abr/live/sony_aath_720/chunks.m3u8"
     },
     {
-      "name": "Ze tv",
-      "logo": "",
+      "name": "Z tv",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjOtGWhpKqeV79_hL4ZwVA39K3DseR-cQGo54RkIxzQA&s",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97570.ts"
     },
     {
-      "name": "sony max",
-      "logo": "",
-      "url": "http://babl21.xyz/live/0572512450/shishir450/97569.ts "
+      "name": "star subas",
+      "logo": "https://e7.pngegg.com/pngimages/258/209/png-clipart-logo-star-india-television-channel-star-tv-channel-one-logo-television-blue-thumbnail.png",
+      "url": "http://babl21.xyz/live/0572512450/shishir450/97567.ts"
     },
     {
       "name": "star gold",
-      "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/zee Bangla.png ",
+      "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/zee Bangla.png",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97754.ts"
     },
     {
       "name": "sun bangla",
-      "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/60/Sun_Bangla_HD_logo.png ",
+      "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/6/60/Sun_Bangla_HD_logo.png",
       "url": "https://footfytv.pro/proxy/direct?url=http://103.151.61.12/SUN_BANGLA/tracks-v1a1/mono.m3u8?token=i7bZaZWaFrSIE0"
     },
     {
       "name": "colors HD bangla",
-      "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/83/Colors_Bangla_HD_(2016-present).png ",
+      "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/83/Colors_Bangla_HD_(2016-present).png",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97564.ts"
     },
     {
       "name": "akash 8",
-      "logo": "",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxudO4IYy8jBebYIUy7352xWBrZ5HBjxfQ2ajDxyO4qQ&s",
       "url": "https://cdn-4.pishow.tv/live/969/969_1.m3u8"
     },
     {
@@ -255,7 +255,7 @@
     },
     {
       "name": "star movies selected hd",
-      "logo": " ",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt3Hro_cxEd1jmanWn2EId4IMMMiRX67fh5vu4UGOvMA&s=10",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97673.ts "
     },
     {
@@ -295,12 +295,12 @@
     },
     {
       "name": "Zee cinema HD",
-      "logo": "",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCDRtM7BjKgjGLOh4Ix-c6bQgN3njlbTVbPoATtPYCsg&s",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97551.ts "
     },
     {
-      "name": "Zee action",
-      "logo": "",
+      "name": "Z action",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/6/65/Zee_Action_(2025).svg/revision/latest?cb=20250608132203",
       "url": "http://babl21.xyz/live/0572512450/shishir450/97697.ts "
     }
   ],
@@ -322,7 +322,7 @@
     },
     {
       "name": "Cartoon Network",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2_Oo4wyPeRJLk6Qx2LR-qkU7yUMefWJePaqWug6mf0BpN9c-JOnMtXrlahIdhb20vUfRAVmne71FSD3RUY_is9kr7fWe5K0Yd33IDt-mAC75fv7cfe49rOlV-a-JF5T1_7XV16ayq1hf2yg018vibmqvuCTigY3ZQn0G00e_Dxl7gZy8a1LZ6C-SAvg/s600/Nur_20251222_155548_0000.png ",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2_Oo4wyPeRJLk6Qx2LR-qkU7yUMefWJePaqWug6mf0BpN9c-JOnMtXrlahIdhb20vUfRAVmne71FSZeUY_is9kr7fWe5K0Yd33IDt-mAC75fv7cfe49rOlV-a-JF5T1_7XV16ayq1hf2yg018vibmqvuCTigY3ZQn0G00e_Dxl7gZy8a1LZ6C-SAvg/s600/Nur_20251222_155548_0000.png ",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8"
     },
     {
