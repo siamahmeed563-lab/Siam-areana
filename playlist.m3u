@@ -123,8 +123,8 @@ http://babl21.xyz/live/0572512450/shishir450/97697.ts
 https://cdn-4.pishow.tv/live/1473/1473_1.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GXzqIYy.png " group-title="Kids",Tom & Jerry
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="https://c91cb3f4.delivery.rocketcdn.me/wp-content/uploads/2026/07/angryb-201x300.png " group-title="Kids",Angry Birds
-https://stream.ads.ottera.tv/cl/260727d9jk1pcvqmgc73bijf70/1280x720_2300000_0_f.m3u8?i=475_547
+#EXTINF:-1 tvg-logo="http://172.20.5.50/assets/images/SONIC1745041154.png " group-title="Kids",SONIC
+http://172.20.5.50:8082/SONIC/tracks-v1a1/mono.m3u8?token=beb0497a1007a7f45fb2f9ae02b868b605ce3685-3f9629b2250a66f83c2a70f9227d86f0-1786305746-1786294946
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwjkC-J8yzF3Sjsg_yPPL0jxmFhYRldz753VGedW_ofw&s" group-title="Kids",C N
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network-avc1_3000000=12-mp4a_256000_eng=6.m3u8
 #EXTINF:-1 tvg-logo="https://c91cb3f4.delivery.rocketcdn.me/wp-content/uploads/2026/03/ChatGPT-Image-Mar-25-2026-02_49_16-PM-1-200x300.png " group-title="Kids",Naruto
