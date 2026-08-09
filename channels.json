@@ -841,17 +841,17 @@
       "url": "https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8"
     },
     {
-      "name": "Discovery bangla",
-      "logo": "https://i.postimg.cc/8c3t26Fc/Hridoy-TV-pro-(4).webp ",
-      "url": "https://jio.joinus-apiworker.workers.dev/live.m3u8?id=573"
+      "name": "Discovery FHD",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGaloaJDqR_QkTJ-i4XgmwPPCdox7DYFimRI9rWTwYXA&s",
+      "url": "http://babl21.xyz/live/0572512450/shishir450/97794.ts"
     },
     {
-      "name": "Discovery HD",
+      "name": "Discovery arabic",
       "logo": "https://i.ibb.co.com/1GyTG78k/Discovery-HD.webpYZ7gUdCrLYgvEyfr6Rb32V-ExmQiW6ZSSeM4XQnaeAzfyhFu57kA/s1080/1000019821.pngvzddfLy33ETUGtaeTF5hoMt5JqH6lZqQX_Md36hs2zkTEueFEwe_ziznQruJLGx78nUhSgW3zr9iDAJHf_XXBQ/s600/Nur_20251215_125830_0000.png ",
       "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/asharqdiscoverypublish/asharqd_720p/chunks_dvr.m3u8"
     },
     {
-      "name": "Discovery",
+      "name": "Discovery SD",
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjclA_gDBqUdomkP0VQd2BBOOKbwf2a1WFl2lfjyj_barMq0ZgVMSrPtKDgFXF7pK3NZeSvT1tEerTbalzt-6n-OgNl2acWlkbXEVUZvzddfLy33ETUGtaeTF5hoMt5JqH6lZqQX_Md36hs2zkTEueFEwe_ziznQruJLGx78nUhSgW3zr9iDAJHf_XXBQ/s600/Nur_20251215_125830_0000.png ",
       "url": "https://stream.ottplus.bd/live/discovery_sd_abr/live/discovery_sd/chunks.m3u8"
     },
