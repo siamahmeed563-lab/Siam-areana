@@ -316,9 +316,9 @@
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8"
     },
     {
-      "name": "SONIC",
-      "logo": "http://172.20.5.50/assets/images/SONIC1745041154.png ",
-      "url": "http://172.20.5.50:8082/SONIC/tracks-v1a1/mono.m3u8?token=beb0497a1007a7f45fb2f9ae02b868b605ce3685-3f9629b2250a66f83c2a70f9227d86f0-1786305746-1786294946"
+      "name": "Sony YaY",
+      "logo": "https://w7.pngwing.com/pngs/443/789/png-transparent-sony-yay-sony-s-networks-india-television-channel-television-show-sony-miscellaneous-television-text-thumbnail.png ",
+      "url": "https://stream.ottplus.bd/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8?nimblesessionid=101220775"
     },
     {
       "name": "C N",
@@ -356,9 +356,9 @@
       "url": "https://iptv.aethelcode.workers.dev/6xyZ3N4oHv2KBJdB6W4p/tracks-v1a1/mono.ts.m3u8"
     },
     {
-      "name": "ZB carton",
-      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGfj6LJcO1Cq5aV4h3LdOmmbO4wAJRqTZO6cnml0t1xL62SLqwPH9tIn5ZUJuj1YWXjSBHUVTjRtGr7ebNNTrY8F5ecp82BlpeiohcgRGo1TU4RjgCdQIFSQIau3R5_EIa7CcgSaMDlnbE2uYgFMPGeRi7x9_7VR25FY-rRPnG57pJPpOlYM6wiXAkKg/s1080/1000015507.png ",
-      "url": "https://server.zillarbarta.com/zbcatun/tracks-v1a1/mono.m3u8"
+      "name": "POGO",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5-2eFSQ7EXNhenE-cHM73oEHApIk9bCy0Z7q94_UyMw&s ",
+      "url": "https://stream.ottplus.bd/live/pogo_sd_abr/live/pogo_sd/chunks.m3u8"
     },
     {
       "name": "mr Been",
@@ -376,9 +376,9 @@
       "url": "http://line.dream-4k.cc/live/T9PDHQSJ6E/W1KLEGZ9VE/1652806.ts"
     },
     {
-      "name": "NiCk Junior Bangla",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQNqs8Tb5q-fPz56iCCIZGTp_08q6ZpspUHnDzhbZr66fduO0Rj7kRA2A&s",
-      "url": "http://live.balajibroadband.com:3500/render.m3u8?auth=rs4AjWAaWK_Yni_TOphXXeQktmxyQ70nnjpDESjioCN3-ld2V4xp45Iu-yFqp40K8DPq13mChSrQMMUpdlkhoyvKjFh0AvzrNZ-d81xYDVW7M9ihESBJGVUKdjfRW98dGnjR6HyMy3wac2wZuCL9bCdrAk6pdrwC4NTdOmTUVYijUoYWAkE7VgdC6G6kqEak2eEmVjwcpCuLJn78aDrzYWKNcuJzJasr3c0IjeBl6tqjWgBVr0M4SBzTc5n2y0PSVdGBGkD9GrBswOH2lVjHm_1yPeRGWY3xDSk70R_RBjMv-5bz3MXdExP8BzaYAsqQIckfcAohePxKujtJ_HqK7ywo6uVzBX1QzeE38YVnAE-xbs3xrUlulq4tjuq1GH67ok-T6p17UYbJVYpL99hnSXmB7mp8nvlPNMBuoBUKbY2XWTdfsbBElEh_bTueKObtgTTIG2hZ5JQbTu0_NSvIiNuiHlC53QqFohfTBSU0g6k1LmX99zRIFd0qLNxm5lRKcAoNFEn-Ln35_e72UpGnq_fQMm8lDFAljTBJ87Vy9RmUgwkAwjYovkW9Hb1Mjvvx5Mh4LppK8HYAJtMMf1I=&channel_key_id=1341&hdnea=st=1786215039~exp=1786301439~acl=/bpk-tv/Nick_Ben_MOB/Fallback/*~hmac=2ea749dfe3a3b1ac74858ad81897a806dffd18d259e7e07ab6f0dd1ed9e7cb9f "
+      "name": "NiCk JR",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6WqyEmw3b9T-ZuD_YjEIKwvd9h_MVDBZZWzQpFZMx3g&s",
+      "url": "https://s3.itcnbd.live/server-7/stream/aHR0cDovLzEwLjk5Ljk5Ljk5OjgyODIvTklDSy5KUi9pbmRleC5tM3U4P3Nlc3Npb249YmI3NzBmNDhhZTNlZWQ2MTBhZGVkMjU4YzA0M2VhYjYwMjFmNmVhYS0zYjllYjhiODRiNzdjMmQ5Zjk1YjI3YjMtMTc4NjM2MzEzNS0xNzg2MzUyMzM1JnJlbW90ZT1ub19jaGVja19pcA.m3u8"
     }
   ],
   "Islamic": [
