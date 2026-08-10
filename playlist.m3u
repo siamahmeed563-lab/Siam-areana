@@ -119,12 +119,12 @@ https://live-dangal.akamaized.net/liveabr/pub-iodang10p4al/live_480p/chunks.m3u8
 http://babl21.xyz/live/0572512450/shishir450/97551.ts 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Zee_Action_(2025).svg/revision/latest?cb=20250608132203" group-title="Indian Bangla",Z action
 http://babl21.xyz/live/0572512450/shishir450/97697.ts 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/c/c4/Khushboo_Bangla_logo_(2016-present).pngbXOb41B9kGNUqwDH5Xm8UVNghDBKipzRqr8IWBA2iGugnRqL0lL6p2HV3x4Y94VJdVnBnz9FL6vTXRD2hiybsV9bbnV_zA/s600/Nur_20251222_155327_0000.png " group-title="Kids",Khusbu bangla
-https://cdn-4.pishow.tv/live/1473/1473_1.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Lwv92wf_8RCyJBPhz5Bjiq7bqdnQmLDDDuTfeaMi&s=10" group-title="Kids",NiCK HD+
+http://babl21.xyz/live/0572512450/shishir450/97772.ts
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GXzqIYy.png " group-title="Kids",Tom & Jerry
 https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/443/789/png-transparent-sony-yay-sony-s-networks-india-television-channel-television-show-sony-miscellaneous-television-text-thumbnail.png " group-title="Kids",Sony YaY
-https://stream.ottplus.bd/live/sony_yay_abr/live/sony_yay_720/chunks.m3u8?nimblesessionid=101220775
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo4oK1tEknzsBvrcd2ECcFNbVweAiv3fXUeiEtVqhi4xhP-XbFOv2OblU&s" group-title="Kids",HUMGAMA
+http://babl21.xyz/live/0572512450/shishir450/97771.ts
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwjkC-J8yzF3Sjsg_yPPL0jxmFhYRldz753VGedW_ofw&s" group-title="Kids",C N
 https://cdn4.skygo.mn/live/disk1/Cartoon_Network/HLSv3-FTA/Cartoon_Network-avc1_3000000=12-mp4a_256000_eng=6.m3u8
 #EXTINF:-1 tvg-logo="https://c91cb3f4.delivery.rocketcdn.me/wp-content/uploads/2026/03/ChatGPT-Image-Mar-25-2026-02_49_16-PM-1-200x300.png " group-title="Kids",Naruto
@@ -137,8 +137,8 @@ https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLBMsrXsPAZmMUpL1YSHecg_MquDHoA6KB5JZlJqVDJZ6qPGEI5tS0Qx3Kz2MNrLSd60OaunpMpR9qjmEPHwn2mgX7rOnFq2VvcbS6HmnSyRl99yGekeamY0deR3DqvybEdG2b06JFAhEzYP7O56VjyUrb8R691BmcM2jnnvyqXYYnlEzSVStSJgUpOA/s600/Nur_20251216_230353_0000.png " group-title="Kids",Doreamon
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZ10o12m5_heYW_O1b71UxtR_ZtpK9dmjzwh1XaPs3lfC8Ev4CweSEOam1lCJ5Tf0V59Yyba60h-UPffxAIMj78BM-qvY5ZMeEAVJYfJ1lOzP0gQn3zX5_iduoCgPb7y-d2NB6NgJ0Ck7vTkwg9VxjNTtmSs4yHN3SHIyxGoZe00djFk5vh95PuCrF/s600/Nur_20251103_211727_0000.png " group-title="Kids",দূরন্ত
-https://iptv.aethelcode.workers.dev/6xyZ3N4oHv2KBJdB6W4p/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/78/Disney_Channel_Germany_Logo_2014.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original " group-title="Kids",Disnep channel
+http://babl21.xyz/live/0572512450/shishir450/97770.ts
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5-2eFSQ7EXNhenE-cHM73oEHApIk9bCy0Z7q94_UyMw&s " group-title="Kids",POGO
 https://stream.ottplus.bd/live/pogo_sd_abr/live/pogo_sd/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vg6odNteLWSDHfqSW9onNwjB-pmmqHXlNxnbldT2-bHcESNCS4DB7xmy84klz1JqUC891lQg5Z0HE4jGnKar4AfA5gi2HD6oaTKbwbV1eK-mIjoKo717m7hKehUfigkxJBX4PeZGV8KnTU5ZgxpQGjfBjdNVAGHRQo5pj1MoP0avxVTRVEQj5VfXWQ/s1080/1000023510.png " group-title="Kids",mr Been
@@ -147,8 +147,8 @@ https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/ts-eu-w1-n2/p
 https://cc-4bhi5osabejc9.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/94102831-7009-4ffa-a63f-266eafddf76d/0.m3u8
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRB4drGtiLC7n-WUv1Whw5zivy-mXgxQ_x3sidxEBL5bItoFPLDbbYPZ7IQ1yyk0xNc8Qz_E05I0CppL3bpp4iB2YvDvTPb9GAjmEbOwTJFBCTxOpQhlBIltjIPsbqloBL0Ah-4lSLtDCoQj6cQpmkkp082IQvRYN9bHTmEQIdkOkcKaB30168kd0qmw/s600/Nur_20251227_140437_0000.png " group-title="Kids",oggy & cocrose HD
 http://line.dream-4k.cc/live/T9PDHQSJ6E/W1KLEGZ9VE/1652806.ts
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6WqyEmw3b9T-ZuD_YjEIKwvd9h_MVDBZZWzQpFZMx3g&s" group-title="Kids",NiCk JR
-https://s3.itcnbd.live/server-7/stream/aHR0cDovLzEwLjk5Ljk5Ljk5OjgyODIvTklDSy5KUi9pbmRleC5tM3U4P3Nlc3Npb249YmI3NzBmNDhhZTNlZWQ2MTBhZGVkMjU4YzA0M2VhYjYwMjFmNmVhYS0zYjllYjhiODRiNzdjMmQ5Zjk1YjI3YjMtMTc4NjM2MzEzNS0xNzg2MzUyMzM1JnJlbW90ZT1ub19jaGVja19pcA.m3u8
+#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/357/952/png-transparent-sonic-sonic-3d-sonic-the-hedgehog-3-sonic-blast-sonic-knuckles-sonic-drive-in-logo-text-sonic-the-hedgehog-video-game-thumbnail.png " group-title="Kids",SONIC
+http://babl21.xyz/live/0572512450/shishir450/113472.ts 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTZgotu5MDgwwbWdlMvdv_GHWbdwkAPappIssIxuHpJK3-lBT16WXTK-BX13JJwTDFVOfVfbaHA6V37KDfEeIrUgqSPJmHnaLYHGumQ7PATse0UtH8o9SMejBcOX-etVqqux9Znsz2Vv7PlMo31FdgdDYlV-MSRHxoBbZRBzBhIVWBsHN8-2_KFNQpGw/s600/Nur_20251216_221739_0000.png " group-title="Islamic",peace tv Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 #EXTINF:-1 tvg-logo="hN2WnN-clZqQPy7bFK0Rh3yHT376J1ZDn7l3jLw65nJ8wo7dr4mjH9Povbddl5Lyuea_yvy89waVOVuRvbc0K3JnRpqC7JJ4j9D3MUfJJZWvBdKz2VSlO9-Qiyt0IN/s600/Nur_20251026_225144_0000.png " group-title="Islamic",peace tv English
