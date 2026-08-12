@@ -243,10 +243,30 @@ http://babl21.xyz/live/0572512450/shishir450/97572.ts
 http://babl21.xyz/live/0572512450/shishir450/97587.ts 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3YhDshhlhcZKyQ3GZxhCf26xOzk7yyOMHXMLjmaqE0ccvWrVEZcUKnY&usqp=CAE&s " group-title="SPORTS",Sony ten 3
 http://babl21.xyz/live/0572512450/shishir450/97545.ts 
-#EXTINF:-1 tvg-logo="" group-title="Other",  
- 
-#EXTINF:-1 tvg-logo="" group-title="Other",
- 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbA0hfpyYQNz8Vtsq9CrPq4DNiw_GBdLqcPqVNPilXbF2b0r7jZsIMIU4&s" group-title="Other",BBC NEWS HD
+http://babl21.xyz/live/0572512450/shishir450/205680.ts
+#EXTINF:-1 tvg-logo="https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/b4a3/live/cee73e90-b72f-11ec-b548-a7b348f6562f.png" group-title="Other",BBC ALBA
+http://babl21.xyz/live/0572512450/shishir450/205682.ts
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2FJuJavOefckerGBQ22cB8ZOHBjVMrmSX8sCyDuq30sjdKp5r0GHuSx8&s" group-title="Other",IQRA TV HD
+http://babl21.xyz/live/0572512450/shishir450/205684.ts
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/31/1/bbc-one-hd-logo-png_seeklogo-314578.png " group-title="Other",BBC ONE E MID
+http://babl21.xyz/live/0572512450/shishir450/205692.ts 
+#EXTINF:-1 tvg-logo="https://seeklogo.com/images/B/bbc-two-hd-logo-EFD7797434-seeklogo.com.png " group-title="Other",BBC TWO HD
+http://babl21.xyz/live/0572512450/shishir450/205697.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBcIG-6M1-jJu3qHpj611Llf7fe92KZl9yJRmC71rQ&usqp=CAE&s " group-title="Other",BBC TWO WALES
+http://babl21.xyz/live/0572512450/shishir450/205700.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTWKv40MBlUlCsfQQYQjS4kxNfj5HYUtl7MmqC1DV6ew&s " group-title="Other",ITV 1
+http://babl21.xyz/live/0572512450/shishir450/205702.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOlDkHGOcef0v5ZXEIUZK1NVh-zyTt8TTyrG-7NmvEfP8ZjaXG2SHD4Zs&s=10 " group-title="Other",ITV 2
+http://babl21.xyz/live/0572512450/shishir450/205705.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfB_QY4t5hS5J5M_OIgSVTqdgaOsUZ9Gh5jEg3D5WtyTN5FUDp9aMIAZs&s " group-title="Other",ITV QUIZ
+http://babl21.xyz/live/0572512450/shishir450/205712.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxyvGUgOrMjZxBgowmoJdsEWPztinXwGLMkANBVzgMM6p8oSXwLm9XWVoP&s=10 " group-title="Other",SKY ATLANTIC HD
+http://babl21.xyz/live/0572512450/shishir450/205727.ts 
+#EXTINF:-1 tvg-logo="https://archive.org/download/sky-max-logo/sky-max-logo.jpg " group-title="Other",SKY MAX HD
+http://babl21.xyz/live/0572512450/shishir450/205736.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZsxrBFt9e3m3l4uIojlIn8fu1AzRm32Dx78W9CV9e8lqHfQC9wmHK6BVg&s=10 " group-title="Other",SKY COMEDY
+http://babl21.xyz/live/0572512450/shishir450/205749.ts 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/fbJRTrpV/Hridoy-TV-channel-(9).webp " group-title="Documentary",wild earth
 https://autentic-adventure-earth-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/6Qyp5mgV/Hridoy-TV-channel-(16).webp " group-title="Documentary",BBC Earth
