@@ -203,7 +203,7 @@ https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1450
 https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1763
 #EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/923/541/png-transparent-hbo-max-hd-logo.png" group-title="Movie",HBO MAX HD
 http://dreamvue.xyz/live/Dorsey/Dorsey/271094.ts
-#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/591/520/png-transparent-star-plus-star-india-television-show-television-channel-net.png" group-title="Movie",star plus hd
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8li5jw3ZwlMyc_k-XPAUGGPc3t_NL9R6rwc5YMFTv2R8qC02QdNQqHZfE&s=10" group-title="Movie",star plus hd
 http://babl21.xyz/live/0572512450/shishir450/97584.ts 
 #EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/60/192/png-transparent-colors-bangla-bengali-television-show-television-channel-nepalis-purple-television-text-thumbnail.png" group-title="Movie",colours bangla cinema
 https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1657 
@@ -211,30 +211,38 @@ https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1657
 http://babl21.xyz/live/0572512450/shishir450/97599.ts 
 #EXTINF:-1 tvg-logo="https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17853997271020x576.jpg " group-title="SPORTS",TAPMAD
 https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/level_0.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.widia.org/wikipedia/commons/b/b7/Logo_beIN_SPORTS_MAX.png?_=20170227163529 " group-title="SPORTS",Bein Sports 1
-https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/DAZN_1.svg/960px-DAZN_1.svg.png?_=20220702043702 " group-title="SPORTS",DA ZN 1,2
-https://1nyaler.streamhostingcdn.top/stream/24/index.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/DAZN_1.svg/960px-DAZN_1.svg.png?_=20220702043702 " group-title="SPORTS",DA ZN 1 
-https://1nyaler.streamhostingcdn.top/stream/16/index.m3u8 
-#EXTINF:-1 tvg-logo="https://www.sportcal.com/wp-content/uploads/sites/32/2024/01/main6596d6c6b2c19.png " group-title="SPORTS",Sports Digital Fosball
-https://1nyaler.streamhostingcdn.top/stream/15/index.m3u8 
-#EXTINF:-1 tvg-logo="https://e0.365dm.com/21/10/768x432/skysports-premier-league-sky-sports_5547250.jpg?20211018160525 " group-title="SPORTS",SKY SPORTS (preamiuer Leaugue) 
-https://1nyaler.streamhostingcdn.top/stream/38/index.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/28/Sky_Mix_2026_Stacked_Logo.png " group-title="SPORTS",Sky Spoets MIX
-https://e0.365dm.com/21/10/768x432/skysports-premier-league-sky-sports_5547250.jpg?20211018160525 
-#EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2019/09/14112502/Premier-Sports-768x576.png " group-title="SPORTS", premium sports 2
-https://1nyaler.streamhostingcdn.top/stream/5/index.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_(2023).svg/1280px-TNT_Sports_(2023).svg.png?_=20230610220736 " group-title="SPORTS",TNT Sports 1
-https://1nyaler.streamhostingcdn.top/stream/13/index.m3u8 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Sport_TV1_(2023).svg/1920px-Sport_TV1_(2023).svg.png?_=20231021014440 " group-title="SPORTS",Sports tv 1
-https://1nyaler.streamhostingcdn.top/stream/20/index.m3u8 
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/767hjG0z/channels4-profile-(1).jpg " group-title="SPORTS",A sports
-https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8?e=1784102512&token=968935df4fd0678de5d7fe392c0610d9&u=ee5437a7-c16b-4700-b317-a41b77d5cba9 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Star_Sports_1_HD.png/960px-Star_Sports_1_HD.png " group-title="SPORTS",Star sports 1
-https://footfytv.pro/proxy/direct?url=http://tvsen7.aynascope.net/sspts1/index.m3u8 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSDFd1LJqPQMhYnIIpskiG9muZ7WJbNJt3jcLxmAdbAgCs2pxLpww4N8k&s=10 " group-title="SPORTS",Willow Sports
-https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8 
+#EXTINF:-1 tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c4754840-fe04-4592-adfb-27c3160cbb5b/div2nmo-ebdac111-6986-4d9c-b31c-f9a1f76e5a3b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9jNDc1NDg0MC1mZTA0LTQ1OTItYWRmYi0yN2MzMTYwY2JiNWIvZGl2Mm5tby1lYmRhYzExMS02OTg2LTRkOWMtYjMxYy1mOWExZjc2ZTVhM2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1KDc11mmNCwRSXN79Gd0cuNvHa25wFe045iEArlrV5c " group-title="SPORTS",WWW RAW
+http://babl21.xyz/live/0572512450/shishir450/128883.ts 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/250px-2015_Fox_Sports_1_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20260304123434 " group-title="SPORTS",FS1
+http://babl21.xyz/live/0572512450/shishir450/128792.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHiugnTgDTfxZfmBpQVxXr-QaWU0B_QIZRS_uFeYM4z6Qg8l4-K3JlWY&s=10 " group-title="SPORTS",DA ZN 2 
+http://babl21.xyz/live/0572512450/shishir450/181548.ts 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/af/Star-sports-select-2-hd.png/revision/latest?cb=20230128175317 " group-title="SPORTS",Star sports selected 2 HD
+http://babl21.xyz/live/0572512450/shishir450/97598.ts 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/37/Star-sports-select-1.png/revision/latest?cb=20230128174436 " group-title="SPORTS",Star sports selected 1 HD 
+http://babl21.xyz/live/0572512450/shishir450/97579.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQKLcDZryS7yijMlGxZs_RwteQvA7W0tdN4v5V2iEMApRDJrwbTydqrIw&s " group-title="SPORTS",Star sports 2
+http://babl21.xyz/live/0572512450/shishir450/97577.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsPGFMG64E0v86Nqm7DheefFbE3Nx1ZS4Aww&s " group-title="SPORTS", TNT sports 4 
+http://babl21.xyz/live/0572512450/shishir450/207608.ts 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/TNT_Sports_3_Stacked.svg/revision/latest/scale-to-width-down/250?cb=20260225234939 " group-title="SPORTS",TNT Sports 3
+http://babl21.xyz/live/0572512450/shishir450/207606.ts 
+#EXTINF:-1 tvg-logo="tbn:ANd9GcRZqyvSl01Z88_gy1YFV_EkZgNXnTQ0fzpV4zt_9HeRyg " group-title="SPORTS",PTV HD
+http://babl21.xyz/live/0572512450/shishir450/229551.ts 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/767hjG0z/channels4-profile-(1).jpg " group-title="SPORTS",A sports FHD
+http://babl21.xyz/live/0572512450/shishir450/229542.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiybr-voU03_jjDYtmwfu8YVABDf9bf2bmy0USjBgqVw&s " group-title="SPORTS",Star sports 1 HD
+http://babl21.xyz/live/0572512450/shishir450/97578.ts 
+#EXTINF:-1 tvg-logo="https://d2779tscntxxsw.cloudfront.net/collection_697406b993cda.png " group-title="SPORTS",Willow Sports extra_cricbuz
+http://babl21.xyz/live/0572512450/shishir450/128856.ts 
+#EXTINF:-1 tvg-logo="https://crystalpng.com/wp-content/uploads/2025/04/geo-super-logo.png" group-title="SPORTS",Geo super
+http://babl21.xyz/live/0572512450/shishir450/229550.ts
+#EXTINF:-1 tvg-logo="https://medianet.mv/media/channel/178x0-icon.png " group-title="SPORTS",Sony ten 1
+http://babl21.xyz/live/0572512450/shishir450/97572.ts 
+#EXTINF:-1 tvg-logo="https://assets.ottplus.bd/uploads/images/2025/11/09/images_92ae3e1f9f72a23d7435dc75a32c98bf_goplay_thumbnail_0002_sony_sports_ten_2_hd.jpg?w=1600 " group-title="SPORTS",Sony ten 2
+http://babl21.xyz/live/0572512450/shishir450/97587.ts 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3YhDshhlhcZKyQ3GZxhCf26xOzk7yyOMHXMLjmaqE0ccvWrVEZcUKnY&usqp=CAE&s " group-title="SPORTS",Sony ten 3
+http://babl21.xyz/live/0572512450/shishir450/97545.ts 
 #EXTINF:-1 tvg-logo="" group-title="Other",  
  
 #EXTINF:-1 tvg-logo="" group-title="Other",
