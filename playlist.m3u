@@ -235,8 +235,10 @@ http://babl21.xyz/live/0572512450/shishir450/229543.ts
 http://babl21.xyz/live/0572512450/shishir450/138006.ts
 #EXTINF:-1 tvg-name="Willow Sports 4k" tvg-logo="https://d2779tscntxxsw.cloudfront.net/collection_697406b993cda.png" group-title="SPORTS",Willow Sports 4k
 http://babl21.xyz/live/0572512450/shishir450/137997.ts
-#EXTINF:-1 tvg-name="Willow Cricket hd" tvg-logo="" group-title="SPORTS",Willow Cricket hd
+#EXTINF:-1 tvg-name="Willow Cricket hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMNdvTldwnTgOifOD_fEPfAPflKPgo70d2g&s" group-title="SPORTS",Willow Cricket hd
 http://babl21.xyz/live/0572512450/shishir450/137990.ts
+#EXTINF:-1 tvg-name="willow Cricket sd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMNdvTldwnTgOifOD_fEPfAPflKPgo70d2g&s" group-title="SPORTS",willow Cricket sd
+http://babl21.xyz/live/0572512450/shishir450/137998.ts
 #EXTINF:-1 tvg-name="Geo super" tvg-logo="https://crystalpng.com/wp-content/uploads/2025/04/geo-super-logo.png" group-title="SPORTS",Geo super
 http://babl21.xyz/live/0572512450/shishir450/229550.ts
 #EXTINF:-1 tvg-name="Sony ten 1" tvg-logo="https://medianet.mv/media/channel/178x0-icon.png" group-title="SPORTS",Sony ten 1
@@ -245,6 +247,8 @@ http://babl21.xyz/live/0572512450/shishir450/97572.ts
 http://babl21.xyz/live/0572512450/shishir450/97587.ts
 #EXTINF:-1 tvg-name="Sony ten 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3YhDshhlhcZKyQ3GZxhCf26xOzk7yyOMHXMLjmaqE0ccvWrVEZcUKnY&usqp=CAE&s" group-title="SPORTS",Sony ten 3
 http://babl21.xyz/live/0572512450/shishir450/97545.ts
+#EXTINF:-1 tvg-name="sony ten 5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtX2VDctb2TIoTpgaQeYYC8Vbf-nUz5liXVyR60E_TNfcwlSUIsz-Rnw&s" group-title="SPORTS",sony ten 5
+http://babl21.xyz/live/0572512450/shishir450/97571.ts
 #EXTINF:-1 tvg-name="SKY SPORTS 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/Sky_Sport_4_logo_2016.svg/revision/latest/scale-to-width-down/300?cb=20180824221521" group-title="SPORTS",SKY SPORTS 4
 http://babl21.xyz/live/0572512450/shishir450/207623.ts
 #EXTINF:-1 tvg-name="BBC NEWS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbA0hfpyYQNz8Vtsq9CrPq4DNiw_GBdLqcPqVNPilXbF2b0r7jZsIMIU4&s" group-title="Other",BBC NEWS HD
