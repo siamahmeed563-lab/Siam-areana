@@ -119,6 +119,16 @@ https://live-dangal.akamaized.net/liveabr/pub-iodang10p4al/live_480p/chunks.m3u8
 http://babl21.xyz/live/0572512450/shishir450/97551.ts
 #EXTINF:-1 tvg-name="Z action" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Zee_Action_(2025).svg/revision/latest?cb=20250608132203" group-title="Indian Bangla",Z action
 http://babl21.xyz/live/0572512450/shishir450/93949.ts
+#EXTINF:-1 tvg-name="Zee marathi hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zc7zWQ_unC8yO0e8xRSUGLeMu_zfw6GZkA&s" group-title="Indian Bangla",Zee marathi hd
+http://babl21.xyz/live/0572512450/shishir450/97552.ts
+#EXTINF:-1 tvg-name="Colors marathi hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdKCBu6AjwL0IB7UMJnO7E0BrteTIv1MlZZw&s" group-title="Indian Bangla",Colors marathi hd
+http://babl21.xyz/live/0572512450/shishir450/97558.ts
+#EXTINF:-1 tvg-name="Zee talkis hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_gf_tOfjfgrPIMn1ac5ezZhEpid7yYyghONouvwH2&usqp=CAE&s" group-title="Indian Bangla",Zee talkis hd
+http://babl21.xyz/live/0572512450/shishir450/97562.ts
+#EXTINF:-1 tvg-name="Star pravah hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxZt66gg54L6o01wK1DmkW7XiwgLsFFgKzzfS2Uusd6qYrnE9gfFgN4Ss&s" group-title="Indian Bangla",Star pravah hd
+http://babl21.xyz/live/0572512450/shishir450/97567.ts
+#EXTINF:-1 tvg-name="Colors gujrari" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa-4Pn3Gna-Pys6-qWLYOFDetnFjRc1F0d-4wdk2CKMA&s" group-title="Indian Bangla",Colors gujrari
+http://babl21.xyz/live/0572512450/shishir450/97582.ts
 #EXTINF:-1 tvg-name="NiCK HD+" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Lwv92wf_8RCyJBPhz5Bjiq7bqdnQmLDDDuTfeaMi&s=10" group-title="Kids",NiCK HD+
 http://babl21.xyz/live/0572512450/shishir450/97772.ts
 #EXTINF:-1 tvg-name="Tom & Jerry" tvg-logo="https://i.imgur.com/GXzqIYy.png" group-title="Kids",Tom & Jerry
@@ -149,6 +159,8 @@ https://cc-4bhi5osabejc9.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73d
 http://line.dream-4k.cc/live/T9PDHQSJ6E/W1KLEGZ9VE/1652806.ts
 #EXTINF:-1 tvg-name="SONIC" tvg-logo="https://w7.pngwing.com/pngs/357/952/png-transparent-sonic-sonic-3d-sonic-the-hedgehog-3-sonic-blast-sonic-knuckles-sonic-drive-in-logo-text-sonic-the-hedgehog-video-game-thumbnail.png" group-title="Kids",SONIC
 http://babl21.xyz/live/0572512450/shishir450/113472.ts
+#EXTINF:-1 tvg-name="Khusbo bangla" tvg-logo="" group-title="Kids",Khusbo bangla
+http://103.175.73.12:8080/live/375/375_0.m3u8
 #EXTINF:-1 tvg-name="peace tv Bangla" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTZgotu5MDgwwbWdlMvdv_GHWbdwkAPappIssIxuHpJK3-lBT16WXTK-BX13JJwTDFVOfVfbaHA6V37KDfEeIrUgqSPJmHnaLYHGumQ7PATse0UtH8o9SMejBcOX-etVqqux9Znsz2Vv7PlMo31FdgdDYlV-MSRHxoBbZRBzBhIVWBsHN8-2_KFNQpGw/s600/Nur_20251216_221739_0000.png" group-title="Islamic",peace tv Bangla
 https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
 #EXTINF:-1 tvg-name="peace tv English" tvg-logo="hN2WnN-clZqQPy7bFK0Rh3yHT376J1ZDn7l3jLw65nJ8wo7dr4mjH9Povbddl5Lyuea_yvy89waVOVuRvbc0K3JnRpqC7JJ4j9D3MUfJJZWvBdKz2VSlO9-Qiyt0IN/s600/Nur_20251026_225144_0000.png" group-title="Islamic",peace tv English
@@ -235,10 +247,8 @@ http://babl21.xyz/live/0572512450/shishir450/229543.ts
 http://babl21.xyz/live/0572512450/shishir450/138006.ts
 #EXTINF:-1 tvg-name="Willow Sports 4k" tvg-logo="https://d2779tscntxxsw.cloudfront.net/collection_697406b993cda.png" group-title="SPORTS",Willow Sports 4k
 http://babl21.xyz/live/0572512450/shishir450/137997.ts
-#EXTINF:-1 tvg-name="Willow Cricket hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMNdvTldwnTgOifOD_fEPfAPflKPgo70d2g&s" group-title="SPORTS",Willow Cricket hd
+#EXTINF:-1 tvg-name="Willow Cricket hd" tvg-logo="" group-title="SPORTS",Willow Cricket hd
 http://babl21.xyz/live/0572512450/shishir450/137990.ts
-#EXTINF:-1 tvg-name="willow Cricket sd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMNdvTldwnTgOifOD_fEPfAPflKPgo70d2g&s" group-title="SPORTS",willow Cricket sd
-http://babl21.xyz/live/0572512450/shishir450/137998.ts
 #EXTINF:-1 tvg-name="Geo super" tvg-logo="https://crystalpng.com/wp-content/uploads/2025/04/geo-super-logo.png" group-title="SPORTS",Geo super
 http://babl21.xyz/live/0572512450/shishir450/229550.ts
 #EXTINF:-1 tvg-name="Sony ten 1" tvg-logo="https://medianet.mv/media/channel/178x0-icon.png" group-title="SPORTS",Sony ten 1
@@ -247,10 +257,74 @@ http://babl21.xyz/live/0572512450/shishir450/97572.ts
 http://babl21.xyz/live/0572512450/shishir450/97587.ts
 #EXTINF:-1 tvg-name="Sony ten 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3YhDshhlhcZKyQ3GZxhCf26xOzk7yyOMHXMLjmaqE0ccvWrVEZcUKnY&usqp=CAE&s" group-title="SPORTS",Sony ten 3
 http://babl21.xyz/live/0572512450/shishir450/97545.ts
-#EXTINF:-1 tvg-name="sony ten 5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtX2VDctb2TIoTpgaQeYYC8Vbf-nUz5liXVyR60E_TNfcwlSUIsz-Rnw&s" group-title="SPORTS",sony ten 5
-http://babl21.xyz/live/0572512450/shishir450/97571.ts
 #EXTINF:-1 tvg-name="SKY SPORTS 4" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ed/Sky_Sport_4_logo_2016.svg/revision/latest/scale-to-width-down/300?cb=20180824221521" group-title="SPORTS",SKY SPORTS 4
 http://babl21.xyz/live/0572512450/shishir450/207623.ts
+#EXTINF:-1 tvg-name="Sky sports hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtX2VDctb2TIoTpgaQeYYC8Vbf-nUz5liXVyR60E_TNfcwlSUIsz-Rnw&s" group-title="SPORTS",Sky sports hd
+http://babl21.xyz/live/0572512450/shishir450/137993.ts
+#EXTINF:-1 tvg-name="M sport" tvg-logo="" group-title="SPORTS",M sport
+http://babl21.xyz/live/0572512450/shishir450/97734.ts
+#EXTINF:-1 tvg-name="Ptv sports 720" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfS4bKuf3h0KhhBiZwFQWjMZvxzkhCcV6CeLpEoJLHl1EzselRYSiH0MM&s=10" group-title="SPORTS",Ptv sports 720
+http://babl21.xyz/live/0572512450/shishir450/229546.ts
+#EXTINF:-1 tvg-name="A sports sd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTauQfCRqSuiUDIBv2XbjdmZSgjHJ-X1y11lYLHjNgwUA&s=10" group-title="SPORTS",A sports sd
+http://babl21.xyz/live/0572512450/shishir450/229544.ts
+#EXTINF:-1 tvg-name="Tvp sport" tvg-logo="https://w7.pngwing.com/pngs/194/112/png-transparent-tvp-sport-poland-telewizja-polska-high-definition-television-sports-logos-television-text-sport-thumbnail.png" group-title="SPORTS",Tvp sport
+http://babl21.xyz/live/0572512450/shishir450/150598.ts
+#EXTINF:-1 tvg-name="Polast sports 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4o3faTU8ZoO8BJG6Jlupd3dUogp5OThnebaQvUmDxgg&s=10" group-title="SPORTS",Polast sports 3
+http://babl21.xyz/live/0572512450/shishir450/150607.ts
+#EXTINF:-1 tvg-name="D sport +" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx4y101a4DzEGE3uye8o4O3sXSdHnJorUXFYQND-2wzRVqp7xTVwRJ3fxs&s=10" group-title="SPORTS",D sport +
+http://babl21.xyz/live/0572512450/shishir450/160327.ts
+#EXTINF:-1 tvg-name="D sports 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/DSports2.png" group-title="SPORTS",D sports 2
+http://babl21.xyz/live/0572512450/shishir450/160328.ts
+#EXTINF:-1 tvg-name="D sport" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaVY6YiObIsLLJ5kycMhk_nvb2TviId7FDpg&s" group-title="SPORTS",D sport
+http://babl21.xyz/live/0572512450/shishir450/160330.ts
+#EXTINF:-1 tvg-name="Digi sport 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYCPDFIFpdKq0zY-0r_gXXyuJf4h6kNviOTw&s" group-title="SPORTS",Digi sport 3
+http://babl21.xyz/live/0572512450/shishir450/150608.ts
+#EXTINF:-1 tvg-name="Digi spoets 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiOMxFwouWzd2GbC6kBdWhNe5lR3WIBC2U3A&s" group-title="SPORTS",Digi spoets 4
+http://babl21.xyz/live/0572512450/shishir450/150612.ts
+#EXTINF:-1 tvg-name="Spiler 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjGr5OJrwT0uiKC9X0QQonKBtl2wZUeeM3ww&s" group-title="SPORTS",Spiler 2
+http://babl21.xyz/live/0572512450/shishir450/150611.ts
+#EXTINF:-1 tvg-name="Sports tv 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn7h35Ip1FTg6VX01FxArGyxWvxDd5i_yWDL-9FZrzzg&s" group-title="SPORTS",Sports tv 2
+http://babl21.xyz/live/0572512450/shishir450/164931.ts
+#EXTINF:-1 tvg-name="Da zn 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPrJTje5Z8QpdZ0sxqDQFQfYsyb9F-Ja1Yik_oPWEKTg&s=10" group-title="SPORTS",Da zn 1
+http://babl21.xyz/live/0572512450/shishir450/164936.ts
+#EXTINF:-1 tvg-name="Da zn 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIOSlvEFQtIrpzuZCwFe-CA303VVyzSlTQzQSC-Fg4jkJ6j6g8rBK-tLE&s" group-title="SPORTS",Da zn 2
+http://babl21.xyz/live/0572512450/shishir450/164937.ts
+#EXTINF:-1 tvg-name="Da zn 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrsCYJjEBuq2EcKj0fRn5VQSErSR2YTFMAKA&s" group-title="SPORTS",Da zn 3
+http://babl21.xyz/live/0572512450/shishir450/164938.ts
+#EXTINF:-1 tvg-name="Da zn 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3JtQMDDEI4HZAtIABnd9ysQlXVKmwukbyt684qLYivivQ1l5BgJaHbP0&s" group-title="SPORTS",Da zn 4
+http://babl21.xyz/live/0572512450/shishir450/164939.ts
+#EXTINF:-1 tvg-name="Da zn" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzVYuzD-XhcAD7px83AkD2EF_dIKYaXFUGA&s" group-title="SPORTS",Da zn
+http://babl21.xyz/live/0572512450/shishir450/164972.ts
+#EXTINF:-1 tvg-name="Sporting tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL94vKYjJ7UW6jcEP3lDgf_LLyd3XWopqMQQ&s" group-title="SPORTS",Sporting tv
+http://babl21.xyz/live/0572512450/shishir450/164944.ts
+#EXTINF:-1 tvg-name="Euro sport 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx81qg7b0BGKjvOnPMuIrB7Jlek5MlvemdA&s" group-title="SPORTS",Euro sport 1
+http://babl21.xyz/live/0572512450/shishir450/164949.ts
+#EXTINF:-1 tvg-name="Euro sport 1 4k" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREx81qg7b0BGKjvOnPMuIrB7Jlek5MlvemdA&s" group-title="SPORTS",Euro sport 1 4k
+http://babl21.xyz/live/0572512450/shishir450/164980.ts
+#EXTINF:-1 tvg-name="Euro sport 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJZc5UVx3MWtnaRs2cX_RHm4-rTjmqyTuX4iZshJ2Upg&s" group-title="SPORTS",Euro sport 2
+http://babl21.xyz/live/0572512450/shishir450/164981.ts
+#EXTINF:-1 tvg-name="Sport tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBOm-Hy-8zdKoqr0_bBzE2-oX_6R7ZpkBIrVGMo1JJ7w&s" group-title="SPORTS",Sport tv
+http://babl21.xyz/live/0572512450/shishir450/164953.ts
+#EXTINF:-1 tvg-name="Fight box hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvQfuWk5z6XalvYfhY8JCBKxBTdceky9tmw&s" group-title="SPORTS",Fight box hd
+http://babl21.xyz/live/0572512450/shishir450/164955.ts
+#EXTINF:-1 tvg-name="Premier sports 1" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAcoCMtTANtzT6duFoJTQeEvgnp_jj5VuNzOdUF1kzyKjCR1phjBVxjXU&s" group-title="SPORTS",Premier sports 1
+http://babl21.xyz/live/0572512450/shishir450/207616.ts
+#EXTINF:-1 tvg-name="Premier sports 1 sd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAcoCMtTANtzT6duFoJTQeEvgnp_jj5VuNzOdUF1kzyKjCR1phjBVxjXU&s" group-title="SPORTS",Premier sports 1 sd
+http://babl21.xyz/live/0572512450/shishir450/207617.ts
+#EXTINF:-1 tvg-name="Premier sports 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQoAPmUHM7PgmQ4V8Ee4e0damSJ6c1EzFVg&s" group-title="SPORTS",Premier sports 2
+http://babl21.xyz/live/0572512450/shishir450/207618.ts
+#EXTINF:-1 tvg-name="Tnt Sports 4" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsPGFMG64E0v86Nqm7DheefFbE3Nx1ZS4Aww&s" group-title="SPORTS",Tnt Sports 4
+http://babl21.xyz/live/0572512450/shishir450/207608.ts
+#EXTINF:-1 tvg-name="Sky Sport 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHWpzBavYco1X3GgvmYjiLQMHaFYRzrTyzw&s" group-title="SPORTS",Sky Sport 2
+http://babl21.xyz/live/0572512450/shishir450/207621.ts
+#EXTINF:-1 tvg-name="Sky sport 4" tvg-logo="" group-title="SPORTS",Sky sport 4
+http://babl21.xyz/live/0572512450/shishir450/207623.ts
+#EXTINF:-1 tvg-name="Sky sport 5" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmR96q4ZNg_pxv8tU5FnvftrF2U74wkXYCSxu-F8ngyA&s=10" group-title="SPORTS",Sky sport 5
+http://babl21.xyz/live/0572512450/shishir450/207624.ts
+#EXTINF:-1 tvg-name="Sport star 1 hindi" tvg-logo="" group-title="SPORTS",Sport star 1 hindi
+http://babl21.xyz/live/0572512450/shishir450/138000.ts
+#EXTINF:-1 tvg-name="Star sports 3" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRtREwxmpgWzQl1L6xAKidWfSjnYAliY-FkL8OWZQ2H2uQaWw1mP1TAOY&s" group-title="SPORTS",Star sports 3
+http://babl21.xyz/live/0572512450/shishir450/138010.ts
 #EXTINF:-1 tvg-name="BBC NEWS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbA0hfpyYQNz8Vtsq9CrPq4DNiw_GBdLqcPqVNPilXbF2b0r7jZsIMIU4&s" group-title="Other",BBC NEWS HD
 http://babl21.xyz/live/0572512450/shishir450/205680.ts
 #EXTINF:-1 tvg-name="BBC ALBA" tvg-logo="https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/b4a3/live/cee73e90-b72f-11ec-b548-a7b348f6562f.png" group-title="Other",BBC ALBA
@@ -393,3 +467,11 @@ http://babl21.xyz/live/0572512450/shishir450/97706.ts
 https://live.thebosstv.com:30443/dwlive/HUM-SITARAY/chunks.m3u8?nimblesessionid=24920377
 #EXTINF:-1 tvg-name="colours cinrplex bollywod" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dc/Colors-Cineplex-Bollywood.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Entertainment",colours cinrplex bollywod
 http://babl21.xyz/live/0572512450/shishir450/97751.ts
+#EXTINF:-1 tvg-name="7s music" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk8l2K4QEHldPfsqwnwRJYcoa5m18nhNIkHO852XRRag&s" group-title="Entertainment",7s music
+http://babl21.xyz/live/0572512450/shishir450/97605.ts
+#EXTINF:-1 tvg-name="Colors cineplex bollywood" tvg-logo="" group-title="Entertainment",Colors cineplex bollywood
+http://babl21.xyz/live/0572512450/shishir450/97751.ts
+#EXTINF:-1 tvg-name="Zoom" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqO3v7RLTf_O5jBV-hEmVbJXbYZ7Vxu7mc5A&s" group-title="Entertainment",Zoom
+http://89.47.232.253:8080/live/0572512450/shishir450/93981.ts?token=yyUXUbX.dacyyd.y.dacXbH.yHXabHcbcH.X.y.BD.ts.06253a5e2230f2e80a2d6304cbc662bac2c2bcc2923e81e360e81b52db14ac7d...YmFibDIxLnh5eg==
+#EXTINF:-1 tvg-name="Zing hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjZ9x3oBEWO62u-XMAxKOv5cSDWsGsm2RhaloCQ39jag&s" group-title="Entertainment",Zing hd
+http://89.47.232.253:8080/live/0572512450/shishir450/93980.ts?token=yyUXUbX.dffffc.y.dffazb.yHXabHcHUc.X.y.BD.ts.42ad7e5d3a25f136d01a67e1b4834164d69550b7198e2d16422ff9cc187525f7...YmFibDIxLnh5eg==
