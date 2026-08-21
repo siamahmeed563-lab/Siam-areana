@@ -83,10 +83,6 @@ http://renvioweb.online:8080/live/0571211533/zxcv533/415749.ts
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/pub-iotv9banaen8yq/live_720p/chunks.m3u8
 #EXTINF:-1 tvg-name="Al JaJira" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaBdbL7lCwCj-0NYvOvZtvJGm-yXMAhAYq4u99CmYcBJRJjhVU9SkS8IzwaWy1F1f7EUJqL_fXMWgxA4P9n09QVQrzV1jM5JtPVeNcGeMMA5_HVD4bBYQ97OZN7ijNWa700_po0PVIZEXaCgDDVnjSa6Mv9V33gHPPxLSDH1GNPrQ0AsnIufh3NBbM/s600/Nur_20251026_223118_0000.png" group-title="Bangladesh",Al JaJira
 https://live-hls-apps-aje-fa.getaj.net/AJE/01.m3u8
-#EXTINF:-1 tvg-name="Atn music tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2jtHQPCjjq-8rLtbQRzcSTwdbV_0Qcf8NfBQt21V3fQ&s" group-title="Bangladesh",Atn music tv
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/live-orgin/atnmusic.stream/chunks.m3u8?nimblesessionid=1165216857
-#EXTINF:-1 tvg-name="Green tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShiIioi1Q1hZWywRCp7BDsmhKzFJPlUJH1oR4_4Dh8Rg&s" group-title="Bangladesh",Green tv
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="akash 8" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxudO4IYy8jBebYIUy7352xWBrZ5HBjxfQ2ajDxyO4qQ&s" group-title="Indian Bangla",akash 8
 https://cdn-4.pishow.tv/live/969/969_1.m3u8
 #EXTINF:-1 tvg-name="colors hd" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/83/Colors_Bangla_HD_(2016-present).png" group-title="Indian Bangla",colors hd
@@ -439,6 +435,16 @@ http://babl21.xyz/live/0572512450/shishir450/207608.ts
 http://babl21.xyz/live/0572512450/shishir450/150598.ts
 #EXTINF:-1 tvg-name="WWW RAW" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c4754840-fe04-4592-adfb-27c3160cbb5b/div2nmo-ebdac111-6986-4d9c-b31c-f9a1f76e5a3b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9jNDc1NDg0MC1mZTA0LTQ1OTItYWRmYi0yN2MzMTYwY2JiNWIvZGl2Mm5tby1lYmRhYzExMS02OTg2LTRkOWMtYjMxYy1mOWExZjc2ZTVhM2IucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1KDc11mmNCwRSXN79Gd0cuNvHa25wFe045iEArlrV5c" group-title="SPORTS",WWW RAW
 http://babl21.xyz/live/0572512450/shishir450/128883.ts
+#EXTINF:-1 tvg-name="CricBuzz 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ii5WMYasnWlEPFZp9I3_soI0p7oixwXPkXNfB4dTEw&s=10" group-title="SPORTS",CricBuzz 2
+http://renvioweb.online:8080/live/0571211533/zxcv533/452367.ts
+#EXTINF:-1 tvg-name="Fox 501 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogTxWtS_udjgv21fFMrJHFkGPSwHx88WY6VF9MxdUTQ&s" group-title="SPORTS",Fox 501 HD
+http://renvioweb.online:8080/live/0571211533/zxcv533/452384.ts
+#EXTINF:-1 tvg-name="Fox 501 FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogTxWtS_udjgv21fFMrJHFkGPSwHx88WY6VF9MxdUTQ&s" group-title="SPORTS",Fox 501 FHD
+http://renvioweb.online:8080/live/0571211533/zxcv533/452385.ts
+#EXTINF:-1 tvg-name="Fox 501 4k" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogTxWtS_udjgv21fFMrJHFkGPSwHx88WY6VF9MxdUTQ&s" group-title="SPORTS",Fox 501 4k
+http://renvioweb.online:8080/live/0571211533/zxcv533/452386.ts
+#EXTINF:-1 tvg-name="S Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Pteh3AhWx0bhK2LdpDeAN4UrvrJ7gFGaB91ZCvjpew&s=10" group-title="SPORTS",S Cricket
+http://renvioweb.online:8080/live/0571211533/zxcv533/452381.ts
 #EXTINF:-1 tvg-name="BBC NEWS HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbA0hfpyYQNz8Vtsq9CrPq4DNiw_GBdLqcPqVNPilXbF2b0r7jZsIMIU4&s" group-title="Other",BBC NEWS HD
 http://babl21.xyz/live/0572512450/shishir450/205680.ts
 #EXTINF:-1 tvg-name="BBC ALBA" tvg-logo="https://ichef.bbci.co.uk/ace/standard/400/cpsprodpb/b4a3/live/cee73e90-b72f-11ec-b548-a7b348f6562f.png" group-title="Other",BBC ALBA
@@ -663,13 +669,3 @@ http://renvioweb.online:8080/live/0571211533/zxcv533/591612.ts
 http://renvioweb.online:8080/live/0571211533/zxcv533/591613.ts
 #EXTINF:-1 tvg-name="beIN 7 Low Quality" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLgOH5_dVwhgyhaqxukABPu-aoZqYFuEkk3_uAsbEDSTM9o6ImUJWaUow&s" group-title="BEIN SPORTS 360",beIN 7 Low Quality
 http://renvioweb.online:8080/live/0571211533/zxcv533/591614.ts
-#EXTINF:-1 tvg-name="CricBuzz 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ii5WMYasnWlEPFZp9I3_soI0p7oixwXPkXNfB4dTEw&s=10" group-title="Sports",CricBuzz 2
-http://renvioweb.online:8080/live/0571211533/zxcv533/452367.ts
-#EXTINF:-1 tvg-name="Fox 501 HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogTxWtS_udjgv21fFMrJHFkGPSwHx88WY6VF9MxdUTQ&s" group-title="Sports",Fox 501 HD
-http://renvioweb.online:8080/live/0571211533/zxcv533/452384.ts
-#EXTINF:-1 tvg-name="Fox 501 FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogTxWtS_udjgv21fFMrJHFkGPSwHx88WY6VF9MxdUTQ&s" group-title="Sports",Fox 501 FHD
-http://renvioweb.online:8080/live/0571211533/zxcv533/452385.ts
-#EXTINF:-1 tvg-name="Fox 501 4k" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTogTxWtS_udjgv21fFMrJHFkGPSwHx88WY6VF9MxdUTQ&s" group-title="Sports",Fox 501 4k
-http://renvioweb.online:8080/live/0571211533/zxcv533/452386.ts
-#EXTINF:-1 tvg-name="S Cricket" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Pteh3AhWx0bhK2LdpDeAN4UrvrJ7gFGaB91ZCvjpew&s=10" group-title="Sports",S Cricket
-http://renvioweb.online:8080/live/0571211533/zxcv533/452381.ts
