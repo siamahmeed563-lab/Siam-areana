@@ -249,14 +249,14 @@ http://babl21.xyz/live/0572512450/shishir450/97569.ts
 http://babl21.xyz/live/0572512450/shishir450/97588.ts
 #EXTINF:-1 tvg-name="Colors cineplex superhit" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/771cc5161427977.63cccfb37c442.png" group-title="Movie",Colors cineplex superhit
 https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1450
-#EXTINF:-1 tvg-name="colors cineplex boolywod" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/dc/Colors-Cineplex-Bollywood.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail_unscaled&_=20260606150449" group-title="Movie",colors cineplex boolywod
-http://babl21.xyz/live/0572512450/shishir450/93753.ts
+#EXTINF:-1 tvg-name="STAR MOVIES SELECTED FHD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Ukrb835xv5ualiBnQ1_Ovfyh9VGZURzI_O42A2kl7dZ9Tw1T0dmmyEY&s=20260606150449" group-title="Movie",STAR MOVIES SELECTED FHD
+http://renvioweb.online:8080/live/0571211533/zxcv533/416037.ts
 #EXTINF:-1 tvg-name="HBO MAX HD" tvg-logo="https://w7.pngwing.com/pngs/923/541/png-transparent-hbo-max-hd-logo.png" group-title="Movie",HBO MAX HD
 http://dreamvue.xyz/live/Dorsey/Dorsey/271094.ts
 #EXTINF:-1 tvg-name="star plus hd" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8li5jw3ZwlMyc_k-XPAUGGPc3t_NL9R6rwc5YMFTv2R8qC02QdNQqHZfE&s=10" group-title="Movie",star plus hd
 http://babl21.xyz/live/0572512450/shishir450/97584.ts
-#EXTINF:-1 tvg-name="colours bangla cinema" tvg-logo="https://w7.pngwing.com/pngs/60/192/png-transparent-colors-bangla-bengali-television-show-television-channel-nepalis-purple-television-text-thumbnail.png" group-title="Movie",colours bangla cinema
-https://jio.joinus-apiworker.workers.dev/live.m3u8?id=1657
+#EXTINF:-1 tvg-name="HBO 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh48kWz9ZUU-fgu1wwIVAiZekmgTilUkn0JHIqCSLnuw&s" group-title="Movie",HBO 2
+http://renvioweb.online:8080/live/0571211533/zxcv533/416019.ts
 #EXTINF:-1 tvg-name="sony max 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/04/SM1_logo.jpg/revision/latest/scale-to-width-down/250?cb=20250510023727" group-title="Movie",sony max 1
 http://babl21.xyz/live/0572512450/shishir450/97599.ts
 #EXTINF:-1 tvg-name="CricBuzz 4K" tvg-logo="https://images.seeklogo.com/logo-png/42/1/cricbuzz-logo-png_seeklogo-429413.png" group-title="SPORTS",CricBuzz 4K
